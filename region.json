@@ -1,7 +1,7 @@
 {
     "googleAnalyticsPropertyId": "28810260-22",
 	"googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
-	"titleMain": { "text": "Freshwater Network - Meramec FLoodplain Tool", "url": "http://freshwaternetwork.org/"},
+	"titleMain": { "text": "Freshwater Network - Meramec Floodplain Tool", "url": "http://freshwaternetwork.org/"},
 	"titleDetail": { "text": "Mississippi River Basin", "url": "https://www.nature.org/ourinitiatives/regions/northamerica/north-america-water-mississippi-river.xml/"},
 	"singlePluginMode": {
         "active": true,
