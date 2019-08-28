@@ -1,0 +1,110 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>USDA/NRCS - National Geospatial Center of Excellence</origin>
+<title>12 Digit Watershed Boundary Dataset</title>
+</citeinfo>
+</citation>
+<descript>
+<purpose>For a link to more detailed processing information on your state's watershed data, please refer to links within the file that was also sent with this dataset called "wbd_state_metadata.html."  
+This dataset is intended to be used as a tool for water-reso</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2013 - Present. See 'LoadDate' attribute field</caldate>
+</sngdate>
+</timeinfo>
+</timeperd>
+<status>
+<progress>In Work</progress>
+</status>
+<spdom>
+<bounding>
+<westbc>-116.24219</westbc>
+<eastbc>East_Bounding_Coordinate: -77.30664</eastbc>
+<northbc>49.28498</northbc>
+<southbc>27.86235</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Standard for Geospatial Dataset File Naming</themekt>
+<themekey>Hydrologic Units</themekey>
+<themekey>HUC</themekey>
+<themekey>WBD</themekey>
+</theme>
+</keywords>
+<useconst>The U.S. Department of Agriculture, Service Center Agencies should be acknowledged as the data source in products derived from these data. This data set is not designed for use as a primary regulatory tool in permitting or citing decisions, but may be used as a reference source.  This information may be interpreted by organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application.  Federal, State, or local regulatory bodies are not to reassign to the Service Center Agencies any authority for the decisions that they make.  The Service Center Agencies will not perform any evaluations of these data for purposes related solely to State or local regulatory programs. Photographic or digital enlargement of these data to scales greater than at which they were originally mapped can cause misinterpretation of the data. Digital data files are periodically updated, and users are responsible for obtaining the latest version of the data.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorg>National Geospatial Center of Excellence</cntorg>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>501 W. Felix St, Bldg 23</address>
+<city>Fort Worth</city>
+<state>Texas</state>
+<postal>76115</postal>
+</cntaddr>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>NRCS State Offices and USGS</origin>
+<pubdate>2013 - Present</pubdate>
+<title>Watershed Boundary Data - Hydrologic Unit</title>
+<srcscale>24,000</srcscale>
+</citeinfo>
+</srccite>
+</srcinfo>
+<procstep>
+<procdesc>The dataset from the USGS was loaded into SDE. For a complete description of the attributes and processes used to delineate hydrologic units to 1:24,000 scale accuracy, please refer to document Watershed Boundary Dataset (WBD) User Guide included with each WBD order. Archives of HUC 2-12 as national layers can be downloaded from ftp://ftp.ftw.nrcs.usda.gov/wbd/</procdesc>
+<procdate>20170921</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.02</latres>
+<longres>0.02</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>World Geodetic System of 1984 (WGS84)</horizdn>
+<ellips>WGS84</ellips>
+<semiaxis>6378137.0</semiaxis>
+<denflat>298.257223563</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>Hydrologic Unit delineation are closed polygons that encompass all area draining toward the lowest point (called outlet or pour point) 
+in the polygon. Because of varying sizes for the different hydrologic unit levels: 
+some polygons do not include all</eaover>
+<eadetcit>See http://nhd.usgs.gov/userguide.html?url=NHD_User_Guide/Feature_Catalog/NHD_Feature_Catalog.htm for a data dictionary.</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distliab>Although these data have been processed successfully on a computer system at the U.S. Department of Agriculture, no warranty expressed or implied is made by the Service Center Agencies regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty.  The U.S. Department of Agriculture will warrant the delivery of this product in computer readable format, and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition.  Request for adjustment of credit must be made within 90 days from the date of this shipment from the ordering site. Neither the U.S. Department of Agriculture, nor any of its agencies are liable for misuse of the data, for damage, for transmission of viruses, or for computer contamination through the distribution of these data sets.  The U.S. Department of Agriculture prohibits discrimination in all its programs and activities on the basis of race, color, national origin, sex, religion, age, disability, political beliefs, sexual orientation, or marital or family status. (Not all prohibited bases apply to all programs.)</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ARC/INFO Shape</formname>
+</digtinfo>
+</digform>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>08/09/2016</metd>
+<metstdn>SCI Minimum Compliance Metadata</metstdn>
+<metstdv>SCI Std 003-02</metstdv>
+</metainfo>
+</metadata>

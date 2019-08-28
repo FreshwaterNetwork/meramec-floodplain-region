@@ -1,0 +1,9 @@
+{
+  "plugins": [
+	 {
+  	      "repo": "floodplain-explorer",
+  	      "name": "floodplain-explorer",
+  	      "org": "FreshwaterNetwork"
+    }
+  ]
+}

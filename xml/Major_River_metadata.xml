@@ -1,0 +1,185 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Major River (ERFv2) - Mississippi River Basin</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Mississippi River Basin major river reaches extracted from Enhanced River Reach File 2.0</abstract>
+      <purpose>This dataset is being used as part of the Conservation Blueprint 1.0 being developed for the Multi-LCC Mississippi River Basin/Gulf Hypoxia Initiative.  The purpose of the Conservation Blueprint is to map, evaluate, and select the most strategic and cost effective places to implement integrated strategies that protect and enhance wildlife habitat while complementing ongoing efforts that reduce nutrient loads to the Gulf of Mexico hypoxic zone and benefit agricultural production through ecosystem services.
+
+The Mississippi River Basin/Gulf Hypoxia Initiative, spearheaded by seven Landscape Conservation Cooperatives, is undertaking a strategic and transparent process to create an integrated framework that supports planning, design, configuration, and delivery of wildlife conservation practices within the watershed.  This framework consists of multiple quantitative objectives representing three interests (i.e., wildlife, water quality, agriculture), a tiered set of conservation strategies to achieve those objectives within five production agriculture systems (i.e., corn &amp; soybean; grazing lands; floodplain forest; rice; cotton), and a modeling approach to determine where to best implement those actions within four key ecological systems of the Mississippi River Basin (i.e., headwater row crop fields; upland prairies; mid-sized riparian streams; mainstem floodplains).
+
+The Initiative plans to use this framework to address collaborative needs that will enhance organizational capacity, avoid duplication of effort, streamline prioritization, and align the work of agencies and organizations across multiple scales.  This effort is intended to be complementary to related on-going efforts, like the Gulf of Mexico Hypoxia Task Force, Mississippi River Basin Initiative, and state nutrient reduction initiatives, but with an added emphasis on the ecological and social values of wildlife habitat.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-112.340251</westbc>
+        <eastbc>-78.078525</eastbc>
+        <northbc>49.247823</northbc>
+        <southbc>28.435047</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>agriculture</themekey>
+        <themekey>conservation</themekey>
+        <themekey>gulf hypoxia</themekey>
+        <themekey>hypoxia</themekey>
+        <themekey>eutrophication</themekey>
+        <themekey>LCC</themekey>
+        <themekey>landscape conservation cooperative</themekey>
+        <themekey>water quality</themekey>
+        <themekey>habitat</themekey>
+        <themekey>species</themekey>
+        <themekey>fish</themekey>
+        <themekey>wildlife</themekey>
+        <themekey>birds</themekey>
+        <themekey>pollinators</themekey>
+        <themekey>species distribution</themekey>
+        <themekey>landscape conservation design</themekey>
+        <themekey>conservation delivery</themekey>
+        <themekey>strategic conservation</themekey>
+        <themekey>mississippi river basin</themekey>
+        <themekey>structured decision making</themekey>
+        <themekey>sdm</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <datacred>USGS, 2003
+
+The Conservation Fund, 2015</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>2375</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>USA Contiguous Albers Equal Area Conic USGS version</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>23.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0000000037527980722984474</absres>
+            <ordres>0.0000000037527980722984474</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Major_River</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ERF_V1_2_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HUC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LEV</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MEANQ</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MEANV</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STRAHLER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RCHTOT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HYDSEQ</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HUC2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HUC4</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HUC6</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>drnar_mi2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Class</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DrnAr_Clas</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Sup_Name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>len_mi</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>flag</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20150825</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
