@@ -212,7 +212,7 @@ function ( 	declare ) {
 								unit:""
 							}
 						}
-					}
+					},
 					group7:{
 						header:"Future Economic Asset Exposure",
 						controls:{
