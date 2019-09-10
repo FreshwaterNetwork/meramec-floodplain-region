@@ -203,7 +203,8 @@ function ( 	declare ) {
 							con0:{
 								type:"slider",
 								field:"popnow",
-								label:"Population exposed to floods (present-day)"
+								label:"Population exposed to floods (present-day)",
+								unit:""
 							},
 							con1:{
 								type:"slider",
