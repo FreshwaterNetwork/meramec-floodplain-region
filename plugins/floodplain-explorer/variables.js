@@ -9,7 +9,7 @@ function ( 	declare ) {
 				t.url = "https://cirrus.tnc.org/arcgis/rest/services/FN_AGR/Meramec/MapServer";
 				// build top level controls
 				t.topObj = {
-					introP: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+					introP: "This floodplain prioritization tool is designed to identify critical opportunities for floodplain protection and restoration in the lower Meramec River basin in Missouri. Use the selector widgets below to specify criteria related to water quality, wildlife habitat, and human exposure to flood risk. The map on the right will change in response to your selections to identify sites meeting these criteria, identifying those geographies where floodplain conservation is likely to have the greatest positive impact on the health of this river system.",
 					toggleBtns:{
 						tb1:{
 							header:"Select Flood Frequency",
@@ -75,7 +75,7 @@ function ( 	declare ) {
 								type:"slider",
 								field:"Acres",
 								label:"Available floodplain area for given return interval and management action",
-								unit:"",
+								unit:"acres",
 								single:true
 							}	
 						}
@@ -149,13 +149,13 @@ function ( 	declare ) {
 								type:"slider",
 								field:"adjProt",
 								label:"Public Lands Adjacency",
-								unit:""
+								unit:"acres"
 							},
 							con1:{
 								type:"slider",
 								field:"EcoSig",
 								label:"Ecological Significance Ranking",
-								unit:""
+								unit:"acres"
 							}
 						}		
 					},
@@ -247,7 +247,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act."
 						},
 						cumu_hci:{
-							values:[],vis:true,min:1,max:4,shfld:true,
+							values:[],vis:true,min:1,max:4,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric."
 						},
 						HPFedEnd:{
@@ -309,7 +309,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act."
 						},
 						cumu_hci:{
-							values:[],vis:true,min:1,max:4,shfld:true,
+							values:[],vis:true,min:1,max:4,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric."
 						},
 						HPFedEnd:{
@@ -371,7 +371,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act."
 						},
 						cumu_hci:{
-							values:[],vis:true,min:1,max:4,shfld:true,
+							values:[],vis:true,min:1,max:4,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric."
 						},
 						HPFedEnd:{
@@ -435,7 +435,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act."
 						},
 						cumu_hci:{
-							values:[],vis:true,min:1,max:4,shfld:true,
+							values:[],vis:true,min:1,max:4,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric."
 						},
 						HPFedEnd:{
@@ -498,7 +498,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act."
 						},
 						cumu_hci:{
-							values:[],vis:true,min:1,max:4,shfld:true,
+							values:[],vis:true,min:1,max:4,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric."
 						},
 						HPFedEnd:{
@@ -561,7 +561,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act."
 						},
 						cumu_hci:{
-							values:[],vis:true,min:1,max:4,shfld:true,
+							values:[],vis:true,min:1,max:4,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric."
 						},
 						HPFedEnd:{
@@ -624,7 +624,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act."
 						},
 						cumu_hci:{
-							values:[],vis:true,min:0,max:5,shfld:true,
+							values:[],vis:true,min:0,max:5,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric."
 						},
 						HPFedEnd:{
@@ -686,7 +686,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act."
 						},
 						cumu_hci:{
-							values:[],vis:true,min:0,max:5,shfld:true,
+							values:[],vis:true,min:0,max:5,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric."
 						},
 						HPFedEnd:{
@@ -748,7 +748,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act."
 						},
 						cumu_hci:{
-							values:[],vis:true,min:0,max:5,shfld:true,
+							values:[],vis:true,min:0,max:5,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric."
 						},
 						HPFedEnd:{
@@ -811,7 +811,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act."
 						},
 						cumu_hci:{
-							values:[],vis:true,min:0,max:5,shfld:true,
+							values:[],vis:true,min:0,max:5,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric."
 						},
 						HPFedEnd:{
@@ -874,7 +874,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act."
 						},
 						cumu_hci:{
-							values:[],vis:true,min:0,max:5,shfld:true,
+							values:[],vis:true,min:0,max:5,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric."
 						},
 						HPFedEnd:{
@@ -937,7 +937,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act."
 						},
 						cumu_hci:{
-							values:[],vis:true,min:0,max:5,shfld:true,
+							values:[],vis:true,min:0,max:5,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric."
 						},
 						HPFedEnd:{
