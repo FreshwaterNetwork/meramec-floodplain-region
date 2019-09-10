@@ -196,7 +196,34 @@ function ( 	declare ) {
 								unit:""
 							}
 						}
+					},
+					group6:{
+						header:"Population Exposure",
+						controls:{
+							con0:{
+								type:"slider",
+								field:"popnow",
+								label:"Population exposed to floods (present-day)"
+							},
+							con1:{
+								type:"slider",
+								field:"pop2050",
+								label:"Population exposed to floods (2050)",
+								unit:""
+							}
+						}
 					}
+					group7:{
+						header:"Future Economic Asset Exposure",
+						controls:{
+							con0:{
+								type:"slider",
+								field:"Dam2050",
+								label:"Economic asset exposure (2050) (Moderate population growth)",
+								unit:""
+							}
+						}
+					}		
 				}
 
 				// definition expression root field names
@@ -236,11 +263,11 @@ function ( 	declare ) {
 						},
 						adjProt:{
 							values:[],vis:true,min:0,max:194,
-							info:"<b>Public Lands Adjacency</b><br>Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
+							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in natural land cover within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:766,
-							info:"<b>Ecological Significance Ranking</b><br>Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -255,15 +282,15 @@ function ( 	declare ) {
 							info:"<b>Number of federally endangered species</b><br>This metric includes data provided by the Missouri Natural Heritage Program (MONHP), Missouri Department of Conservation. The MONHP houses the most complete database on the locations and status of species and natural communities of conservation concern. Data provided by the MONHP are not based on an exhaustive inventory of the state. The lack of data for any geographic area shall not be construed to mean that no significant features are present. Only an on-site survey can determine the presence or absence of natural heritage resources. The information provided for your request is accurate and current as of the last observation date."
 						},
 						popnow:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:13,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected return interval."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:1,max:95,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:347586,max:8041059,
 							info:"<b>Economic asset exposure (2050) (Moderate population growth)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						}
 					},
@@ -298,11 +325,11 @@ function ( 	declare ) {
 						},
 						adjProt:{
 							values:[],vis:true,min:0,max:870,
-							info:"<b>Public Lands Adjacency</b><br>Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
+							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in natural land cover within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
 							values:[],vis:true,min:137,max:2541,
-							info:"<b>Ecological Significance Ranking</b><br>Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -317,15 +344,15 @@ function ( 	declare ) {
 							info:"<b>Number of federally endangered species</b><br>This metric includes data provided by the Missouri Natural Heritage Program (MONHP), Missouri Department of Conservation. The MONHP houses the most complete database on the locations and status of species and natural communities of conservation concern. Data provided by the MONHP are not based on an exhaustive inventory of the state. The lack of data for any geographic area shall not be construed to mean that no significant features are present. Only an on-site survey can determine the presence or absence of natural heritage resources. The information provided for your request is accurate and current as of the last observation date."
 						},
 						popnow:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:28,max:248,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected return interval."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:36,max:593,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:3720282,max:91600001,
 							info:"<b>Economic asset exposure (2050) (Moderate population growth)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						}
 					},
@@ -360,11 +387,11 @@ function ( 	declare ) {
 						},
 						adjProt:{
 							values:[],vis:true,min:0,max:1148,
-							info:"<b>Public Lands Adjacency</b><br>Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
+							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in natural land cover within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
 							values:[],vis:true,min:239,max:4062,
-							info:"<b>Ecological Significance Ranking</b><br>Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -379,15 +406,15 @@ function ( 	declare ) {
 							info:"<b>Number of federally endangered species</b><br>This metric includes data provided by the Missouri Natural Heritage Program (MONHP), Missouri Department of Conservation. The MONHP houses the most complete database on the locations and status of species and natural communities of conservation concern. Data provided by the MONHP are not based on an exhaustive inventory of the state. The lack of data for any geographic area shall not be construed to mean that no significant features are present. Only an on-site survey can determine the presence or absence of natural heritage resources. The information provided for your request is accurate and current as of the last observation date."
 						},
 						popnow:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:49,max:834,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected return interval."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:57,max:978,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:5771526,max:174000001,
 							info:"<b>Economic asset exposure (2050) (Moderate population growth)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						}
 					},
@@ -400,35 +427,35 @@ function ( 	declare ) {
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Total nitrogen (SWAT model)</b><br>Total nitrogen loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Total nitrogen (SWAT model)</b><br>Total nitrogen loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						TP:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Total phosphorus (SWAT model)</b><br>Total phosphorus loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Total phosphorus (SWAT model)</b><br>Total phosphorus loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						Sed:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Sediment (SWAT model)</b><br>Local sediment loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Sediment (SWAT model)</b><br>Local sediment loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						SedAcc:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Accumulated sediment (SWAT model)</b><br>Sediment loading, according to SWAT modeling -- accounts for all sediment coming in from upstream. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Accumulated sediment (SWAT model)</b><br>Sediment loading, according to SWAT modeling -- accounts for all sediment coming in from upstream. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						DINCY:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0,max:10,div:10,
+							values:[],vis:true,min:0,max:10,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
 							values:[],vis:true,min:0,max:68,
-							info:"<b>Public Lands Adjacency</b><br>Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
+							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in ag or potentially grazed land within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. & Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:16,
-							info:"<b>Ecological Significance Ranking</b><br>Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -443,15 +470,15 @@ function ( 	declare ) {
 							info:"<b>Number of federally endangered species</b><br>This metric includes data provided by the Missouri Natural Heritage Program (MONHP), Missouri Department of Conservation. The MONHP houses the most complete database on the locations and status of species and natural communities of conservation concern. Data provided by the MONHP are not based on an exhaustive inventory of the state. The lack of data for any geographic area shall not be construed to mean that no significant features are present. Only an on-site survey can determine the presence or absence of natural heritage resources. The information provided for your request is accurate and current as of the last observation date."
 						},
 						popnow:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:8,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected return interval."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:35,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:35202,max:2869233,
 							info:"<b>Economic asset exposure (2050) (Moderate population growth)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						}
 					},
@@ -463,35 +490,35 @@ function ( 	declare ) {
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Total nitrogen (SWAT model)</b><br>Total nitrogen loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Total nitrogen (SWAT model)</b><br>Total nitrogen loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						TP:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Total phosphorus (SWAT model)</b><br>Total phosphorus loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Total phosphorus (SWAT model)</b><br>Total phosphorus loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						Sed:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Sediment (SWAT model)</b><br>Local sediment loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Sediment (SWAT model)</b><br>Local sediment loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						SedAcc:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Accumulated sediment (SWAT model)</b><br>Sediment loading, according to SWAT modeling -- accounts for all sediment coming in from upstream. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Accumulated sediment (SWAT model)</b><br>Sediment loading, according to SWAT modeling -- accounts for all sediment coming in from upstream. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						DINCY:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0,max:10,div:10,
+							values:[],vis:true,min:0,max:10,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
 							values:[],vis:true,min:0,max:376,
-							info:"<b>Public Lands Adjacency</b><br>Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
+							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in ag or potentially grazed land within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. & Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:73,
-							info:"<b>Ecological Significance Ranking</b><br>Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -506,15 +533,15 @@ function ( 	declare ) {
 							info:"<b>Number of federally endangered species</b><br>This metric includes data provided by the Missouri Natural Heritage Program (MONHP), Missouri Department of Conservation. The MONHP houses the most complete database on the locations and status of species and natural communities of conservation concern. Data provided by the MONHP are not based on an exhaustive inventory of the state. The lack of data for any geographic area shall not be construed to mean that no significant features are present. Only an on-site survey can determine the presence or absence of natural heritage resources. The information provided for your request is accurate and current as of the last observation date."
 						},
 						popnow:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:5,max:113,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected return interval."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:4,max:299,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected return interval in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:367790,max:45400001,
 							info:"<b>Economic asset exposure (2050) (Moderate population growth)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						}
 					},
@@ -526,35 +553,35 @@ function ( 	declare ) {
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Total nitrogen (SWAT model)</b><br>Total nitrogen loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Total nitrogen (SWAT model)</b><br>Total nitrogen loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						TP:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Total phosphorus (SWAT model)</b><br>Total phosphorus loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Total phosphorus (SWAT model)</b><br>Total phosphorus loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						Sed:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Sediment (SWAT model)</b><br>Local sediment loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Sediment (SWAT model)</b><br>Local sediment loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						SedAcc:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Accumulated sediment (SWAT model)</b><br>Sediment loading, according to SWAT modeling -- accounts for all sediment coming in from upstream. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Accumulated sediment (SWAT model)</b><br>Sediment loading, according to SWAT modeling -- accounts for all sediment coming in from upstream. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						DINCY:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0,max:10,div:10,
+							values:[],vis:true,min:0,max:10,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
 							values:[],vis:true,min:0,max:456,
-							info:"<b>Public Lands Adjacency</b><br>Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
+							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in ag or potentially grazed land within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. & Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:284,
-							info:"<b>Ecological Significance Ranking</b><br>Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -569,15 +596,15 @@ function ( 	declare ) {
 							info:"<b>Number of federally endangered species</b><br>This metric includes data provided by the Missouri Natural Heritage Program (MONHP), Missouri Department of Conservation. The MONHP houses the most complete database on the locations and status of species and natural communities of conservation concern. Data provided by the MONHP are not based on an exhaustive inventory of the state. The lack of data for any geographic area shall not be construed to mean that no significant features are present. Only an on-site survey can determine the presence or absence of natural heritage resources. The information provided for your request is accurate and current as of the last observation date."
 						},
 						popnow:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:10,max:528,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected return interval."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:7,max:624,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected return interval in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:616551,max:91500001,
 							info:"<b>Economic asset exposure (2050) (Moderate population growth)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						}
 					},
@@ -613,11 +640,11 @@ function ( 	declare ) {
 						},
 						adjProt:{
 							values:[],vis:true,min:0,max:112,
-							info:"<b>Public Lands Adjacency</b><br>Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
+							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in natural land cover within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:294,
-							info:"<b>Ecological Significance Ranking</b><br>Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -632,15 +659,15 @@ function ( 	declare ) {
 							info:"<b>Number of federally endangered species</b><br>This metric includes data provided by the Missouri Natural Heritage Program (MONHP), Missouri Department of Conservation. The MONHP houses the most complete database on the locations and status of species and natural communities of conservation concern. Data provided by the MONHP are not based on an exhaustive inventory of the state. The lack of data for any geographic area shall not be construed to mean that no significant features are present. Only an on-site survey can determine the presence or absence of natural heritage resources. The information provided for your request is accurate and current as of the last observation date."
 						},
 						popnow:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:10,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected return interval."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:37,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:4655791,
 							info:"<b>Economic asset exposure (2050) (Moderate population growth)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						}
 					},
@@ -675,11 +702,11 @@ function ( 	declare ) {
 						},
 						adjProt:{
 							values:[],vis:true,min:0,max:248,
-							info:"<b>Public Lands Adjacency</b><br>Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
+							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in natural land cover within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:500,
-							info:"<b>Ecological Significance Ranking</b><br>Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -694,15 +721,15 @@ function ( 	declare ) {
 							info:"<b>Number of federally endangered species</b><br>This metric includes data provided by the Missouri Natural Heritage Program (MONHP), Missouri Department of Conservation. The MONHP houses the most complete database on the locations and status of species and natural communities of conservation concern. Data provided by the MONHP are not based on an exhaustive inventory of the state. The lack of data for any geographic area shall not be construed to mean that no significant features are present. Only an on-site survey can determine the presence or absence of natural heritage resources. The information provided for your request is accurate and current as of the last observation date."
 						},
 						popnow:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:50,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected return interval."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:156,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:30900001,
 							info:"<b>Economic asset exposure (2050) (Moderate population growth)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						}
 					},
@@ -737,11 +764,11 @@ function ( 	declare ) {
 						},
 						adjProt:{
 							values:[],vis:true,min:0,max:266,
-							info:"<b>Public Lands Adjacency</b><br>Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
+							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in natural land cover within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:569,
-							info:"<b>Ecological Significance Ranking</b><br>Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -756,15 +783,15 @@ function ( 	declare ) {
 							info:"<b>Number of federally endangered species</b><br>This metric includes data provided by the Missouri Natural Heritage Program (MONHP), Missouri Department of Conservation. The MONHP houses the most complete database on the locations and status of species and natural communities of conservation concern. Data provided by the MONHP are not based on an exhaustive inventory of the state. The lack of data for any geographic area shall not be construed to mean that no significant features are present. Only an on-site survey can determine the presence or absence of natural heritage resources. The information provided for your request is accurate and current as of the last observation date."
 						},
 						popnow:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:71,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected return interval."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:184,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:46400001,
 							info:"<b>Economic asset exposure (2050) (Moderate population growth)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						}
 					},
@@ -776,35 +803,35 @@ function ( 	declare ) {
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Total nitrogen (SWAT model)</b><br>Total nitrogen loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Total nitrogen (SWAT model)</b><br>Total nitrogen loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						TP:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Total phosphorus (SWAT model)</b><br>Total phosphorus loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Total phosphorus (SWAT model)</b><br>Total phosphorus loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						Sed:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Sediment (SWAT model)</b><br>Local sediment loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Sediment (SWAT model)</b><br>Local sediment loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						SedAcc:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Accumulated sediment (SWAT model)</b><br>Sediment loading, according to SWAT modeling -- accounts for all sediment coming in from upstream. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Accumulated sediment (SWAT model)</b><br>Sediment loading, according to SWAT modeling -- accounts for all sediment coming in from upstream. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						DINCY:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0,max:10,div:10,
+							values:[],vis:true,min:0,max:10,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
 							values:[],vis:true,min:0,max:32,
-							info:"<b>Public Lands Adjacency</b><br>Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
+							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in ag or potentially grazed land within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. & Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:10,
-							info:"<b>Ecological Significance Ranking</b><br>Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -819,15 +846,15 @@ function ( 	declare ) {
 							info:"<b>Number of federally endangered species</b><br>This metric includes data provided by the Missouri Natural Heritage Program (MONHP), Missouri Department of Conservation. The MONHP houses the most complete database on the locations and status of species and natural communities of conservation concern. Data provided by the MONHP are not based on an exhaustive inventory of the state. The lack of data for any geographic area shall not be construed to mean that no significant features are present. Only an on-site survey can determine the presence or absence of natural heritage resources. The information provided for your request is accurate and current as of the last observation date."
 						},
 						popnow:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:6,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected return interval."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:15,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected return interval in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:1536244,
 							info:"<b>Economic asset exposure (2050) (Moderate population growth)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						} 
 					},
@@ -839,35 +866,35 @@ function ( 	declare ) {
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Total nitrogen (SWAT model)</b><br>Total nitrogen loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Total nitrogen (SWAT model)</b><br>Total nitrogen loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						TP:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Total phosphorus (SWAT model)</b><br>Total phosphorus loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Total phosphorus (SWAT model)</b><br>Total phosphorus loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						Sed:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Sediment (SWAT model)</b><br>Local sediment loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Sediment (SWAT model)</b><br>Local sediment loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						SedAcc:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Accumulated sediment (SWAT model)</b><br>Sediment loading, according to SWAT modeling -- accounts for all sediment coming in from upstream. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Accumulated sediment (SWAT model)</b><br>Sediment loading, according to SWAT modeling -- accounts for all sediment coming in from upstream. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						DINCY:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0,max:10,div:10,
+							values:[],vis:true,min:0,max:10,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
 							values:[],vis:true,min:0,max:121,
-							info:"<b>Public Lands Adjacency</b><br>Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
+							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in ag or potentially grazed land within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. & Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:33,
-							info:"<b>Ecological Significance Ranking</b><br>Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -882,15 +909,15 @@ function ( 	declare ) {
 							info:"<b>Number of federally endangered species</b><br>This metric includes data provided by the Missouri Natural Heritage Program (MONHP), Missouri Department of Conservation. The MONHP houses the most complete database on the locations and status of species and natural communities of conservation concern. Data provided by the MONHP are not based on an exhaustive inventory of the state. The lack of data for any geographic area shall not be construed to mean that no significant features are present. Only an on-site survey can determine the presence or absence of natural heritage resources. The information provided for your request is accurate and current as of the last observation date."
 						},
 						popnow:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:52,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected return interval."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:144,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected return interval in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:14800001,
 							info:"<b>Economic asset exposure (2050) (Moderate population growth)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						}
 					},
@@ -902,35 +929,35 @@ function ( 	declare ) {
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Total nitrogen (SWAT model)</b><br>Total nitrogen loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Total nitrogen (SWAT model)</b><br>Total nitrogen loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						TP:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Total phosphorus (SWAT model)</b><br>Total phosphorus loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Total phosphorus (SWAT model)</b><br>Total phosphorus loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						Sed:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Sediment (SWAT model)</b><br>Local sediment loading, according to SWAT modeling. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Sediment (SWAT model)</b><br>Local sediment loading, according to SWAT modeling. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						SedAcc:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Accumulated sediment (SWAT model)</b><br>Sediment loading, according to SWAT modeling -- accounts for all sediment coming in from upstream. Values normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Accumulated sediment (SWAT model)</b><br>Sediment loading, according to SWAT modeling -- accounts for all sediment coming in from upstream. Values normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						DINCY:{
 							values:[],vis:true,min:0,max:100,
-							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For protection priorities, identify catchments <i>higher</i> in this metric."
+							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0,max:10,div:10,
+							values:[],vis:true,min:0,max:10,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
 							values:[],vis:true,min:0,max:137,
-							info:"<b>Public Lands Adjacency</b><br>Protected land includes areas from Protected Areas Database of the U.S. and Great Rivers Greenway infrastructure."
+							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in ag or potentially grazed land within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. & Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:96,
-							info:"<b>Ecological Significance Ranking</b><br>Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -945,15 +972,15 @@ function ( 	declare ) {
 							info:"<b>Number of federally endangered species</b><br>This metric includes data provided by the Missouri Natural Heritage Program (MONHP), Missouri Department of Conservation. The MONHP houses the most complete database on the locations and status of species and natural communities of conservation concern. Data provided by the MONHP are not based on an exhaustive inventory of the state. The lack of data for any geographic area shall not be construed to mean that no significant features are present. Only an on-site survey can determine the presence or absence of natural heritage resources. The information provided for your request is accurate and current as of the last observation date."
 						},
 						popnow:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:427,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected return interval."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:178,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected return interval in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:100,
+							values:[],vis:true,min:0,max:33800001,
 							info:"<b>Economic asset exposure (2050) (Moderate population growth)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						}
 					}
