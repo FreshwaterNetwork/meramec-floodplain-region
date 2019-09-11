@@ -5,11 +5,17 @@
 	#hideDesc{
 		position:absolute; top:2px; right:4px; cursor:pointer; 
 	}
-	#hideDesc:hover{
-		color:red; font-weight:bold;
-	}
 	#popupAttWrap input{
 		margin-left:3px; margin-bottom:4px; font-weight:bold;
+	}
+	#hideDesc .fa-info-circle{
+		font-size:21px; color:#457545; cursor:pointer;
+	}
+	#hideDesc .fa-close{
+		font-size:21px; color:#d64000; cursor:pointer;
+	}
+	#hideDesc .feInfoClose:hover{
+		font-weight:bold;
 	}
 </style>
 <div id="popupAttWrap">
@@ -25,7 +31,7 @@
 	<label for="pop2050_2">Projected 2050 population in 100-year floodplain</label><input type="text" name="pop2050_2" id="pop2050_2" disabled><br>
 	<label for="Dam2050_2">Potential 2050 flood damage to buildings in 100-year floodplain</label><input type="text" name="Dam2050_2" id="Dam2050_2" disabled><br>
 </div>
-<div id="hideDesc">X</div></div>
+<div id="hideDesc"><i class="fa fa-close feInfo feInfoClose"></i></div>
 <script>
 
 </script>
