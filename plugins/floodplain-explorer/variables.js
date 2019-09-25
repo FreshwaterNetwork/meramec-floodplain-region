@@ -227,6 +227,10 @@ function ( 	declare ) {
 					}		
 				}
 
+				// object to build supporting layers
+				t.supportingLayersObj = {
+					visible:true
+				}	
 				// definition expression root field names
 				t.exp = {
 					Acres:"", TN:"", TP:"", Sed:"", SedAcc:"", DINCY:"", impWet:"", NCCPI:"", fprank:"", adjProt:"", EcoSig:"", inIBA:"",	WT_TOT:"", ABCcorr:"", anyHab:"", cumu_hci:"", HPFedEnd:"", popnow:"", pop2050:"", Dam2050:""
