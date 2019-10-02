@@ -74,7 +74,7 @@ function ( 	declare ) {
 							con0:{
 								type:"slider",
 								field:"Acres",
-								label:"Available floodplain area for given return interval and management action",
+								label:"Available floodplain area for given flood frequency and management action",
 								unit:"acres",
 								single:true
 							}	
@@ -247,7 +247,7 @@ function ( 	declare ) {
 					h12p1:{
 						Acres:{
 							values:[],vis:true,min:17,max:806,
-							info:"<b>Available floodplain area for given return interval and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
+							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
 						}, 
 						TN:{
 							values:[],vis:true,min:0,max:100,
@@ -294,11 +294,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:0,max:13,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected return interval."
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency."
 						},
 						pop2050:{
 							values:[],vis:true,min:1,max:95,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:347586,max:8041059,
@@ -309,7 +309,7 @@ function ( 	declare ) {
 					h12p2:{
 						Acres:{
 							values:[],vis:true,min:153,max:3044,
-							info:"<b>Available floodplain area for given return interval and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
+							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
@@ -356,11 +356,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:28,max:248,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected return interval."
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency."
 						},
 						pop2050:{
 							values:[],vis:true,min:36,max:593,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:3720282,max:91600001,
@@ -371,7 +371,7 @@ function ( 	declare ) {
 					h12p3:{
 						Acres:{
 							values:[],vis:true,min:282,max:4901,
-							info:"<b>Available floodplain area for given return interval and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
+							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
@@ -418,11 +418,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:49,max:834,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected return interval."
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency."
 						},
 						pop2050:{
 							values:[],vis:true,min:57,max:978,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:5771526,max:174000001,
@@ -434,7 +434,7 @@ function ( 	declare ) {
 					h12r1:{
 						Acres:{
 							values:[],vis:true,min:1,max:482,
-							info:"<b>Available floodplain area for given return interval and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
+							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
@@ -457,7 +457,7 @@ function ( 	declare ) {
 							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0,max:10,step:0.001,
+							values:[],vis:true,min:0,max:0.612,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
@@ -482,11 +482,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:0,max:8,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected return interval."
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
 						},
 						pop2050:{
 							values:[],vis:true,min:0,max:35,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:35202,max:2869233,
@@ -497,7 +497,7 @@ function ( 	declare ) {
 					h12r2:{
 						Acres:{
 							values:[],vis:true,min:67,max:2577,
-							info:"<b>Available floodplain area for given return interval and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
+							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
@@ -520,7 +520,7 @@ function ( 	declare ) {
 							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0,max:10,step:0.001,
+							values:[],vis:true,min:0,max:0.544,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
@@ -545,11 +545,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:5,max:113,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected return interval."
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
 						},
 						pop2050:{
 							values:[],vis:true,min:4,max:299,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected return interval in 2050."
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:367790,max:45400001,
@@ -560,7 +560,7 @@ function ( 	declare ) {
 					h12r3:{
 						Acres:{
 							values:[],vis:true,min:107,max:3122,
-							info:"<b>Available floodplain area for given return interval and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
+							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
@@ -583,7 +583,7 @@ function ( 	declare ) {
 							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0,max:10,step:0.001,
+							values:[],vis:true,min:0,max:0.517,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
@@ -608,11 +608,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:10,max:528,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected return interval."
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
 						},
 						pop2050:{
 							values:[],vis:true,min:7,max:624,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected return interval in 2050."
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:616551,max:91500001,
@@ -624,7 +624,7 @@ function ( 	declare ) {
 					catchp1:{
 						Acres:{
 							values:[],vis:true,min:0,max:295,
-							info:"<b>Available floodplain area for given return interval and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
+							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
@@ -671,11 +671,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:0,max:10,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected return interval."
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency."
 						},
 						pop2050:{
 							values:[],vis:true,min:0,max:37,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:0,max:4655791,
@@ -686,7 +686,7 @@ function ( 	declare ) {
 					catchp2:{
 						Acres:{
 							values:[],vis:true,min:0,max:504,
-							info:"<b>Available floodplain area for given return interval and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
+							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
@@ -733,11 +733,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:0,max:50,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected return interval."
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency."
 						},
 						pop2050:{
 							values:[],vis:true,min:0,max:156,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:0,max:30900001,
@@ -748,7 +748,7 @@ function ( 	declare ) {
 					catchp3:{
 						Acres:{
 							values:[],vis:true,min:0,max:576,
-							info:"<b>Available floodplain area for given return interval and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
+							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
@@ -795,11 +795,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:0,max:71,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected return interval."
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency."
 						},
 						pop2050:{
 							values:[],vis:true,min:0,max:184,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected return interval in 2050."
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:0,max:46400001,
@@ -810,7 +810,7 @@ function ( 	declare ) {
 					catchr1:{
 						Acres:{
 							values:[],vis:true,min:0,max:123,
-							info:"<b>Available floodplain area for given return interval and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
+							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
@@ -833,7 +833,7 @@ function ( 	declare ) {
 							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0,max:10,step:0.001,
+							values:[],vis:true,min:0,max:0.762,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
@@ -858,11 +858,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:0,max:6,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected return interval."
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
 						},
 						pop2050:{
 							values:[],vis:true,min:0,max:15,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected return interval in 2050."
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:0,max:1536244,
@@ -873,7 +873,7 @@ function ( 	declare ) {
 					catchr2:{
 						Acres:{
 							values:[],vis:true,min:0,max:453,
-							info:"<b>Available floodplain area for given return interval and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
+							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
@@ -896,7 +896,7 @@ function ( 	declare ) {
 							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0,max:10,step:0.001,
+							values:[],vis:true,min:0,max:0.746,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
@@ -921,11 +921,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:0,max:52,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected return interval."
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
 						},
 						pop2050:{
 							values:[],vis:true,min:0,max:144,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected return interval in 2050."
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:0,max:14800001,
@@ -936,7 +936,7 @@ function ( 	declare ) {
 					catchr3:{
 						Acres:{
 							values:[],vis:true,min:0,max:729,
-							info:"<b>Available floodplain area for given return interval and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
+							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
 						},
 						TN:{
 							values:[],vis:true,min:0,max:100,
@@ -959,7 +959,7 @@ function ( 	declare ) {
 							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0,max:10,step:0.001,
+							values:[],vis:true,min:0,max:0.746,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
@@ -984,11 +984,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:0,max:427,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected return interval."
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
 						},
 						pop2050:{
 							values:[],vis:true,min:0,max:178,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected return interval in 2050."
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:0,max:33800001,
