@@ -229,7 +229,7 @@ function ( 	declare ) {
 
 				// object to build supporting layers
 				t.supportingLayersObj = {
-					visible:true
+					visible:false
 				}	
 				// definition expression root field names
 				t.exp = {
