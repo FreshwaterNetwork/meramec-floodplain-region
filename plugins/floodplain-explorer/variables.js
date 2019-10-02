@@ -229,7 +229,13 @@ function ( 	declare ) {
 
 				// object to build supporting layers
 				t.supportingLayersObj = {
-					visible:false
+					visible:true,
+					controls:{
+						con0:{
+							value:"2",
+							label:"100-Year Floodplain"
+						}
+					}
 				}	
 				// definition expression root field names
 				t.exp = {
