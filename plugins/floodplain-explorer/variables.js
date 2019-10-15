@@ -1382,14 +1382,27 @@ function ( 	declare ) {
 				$(`h4:contains("Select Flood Frequency")`).wrap('<div id="' + t.id + 'ff-wrap" style="position:relative;"/>')
 				// Add zoom to activate text above Catchments
 				$(`#${t.id}ff-wrap`).prepend(`
-					<div class="ffInfoWrap">
+					<div class="ffInfoWrap feInfoWrap">
 						<i class="fa fa-info-circle feInfo feInfoOpen"></i>
 					</div>
-					<div class="feInfoTextWrap">
-						<span class="feInfoText">In any given year, there is a 20% chance of a 1-in-5-year (or greater) flood, a 1% chance of a 1-in-100-year (or greater) flood, and a 0.2% chance of a 1-in-500-year (or greater) flood. <a href='https://www.usgs.gov/special-topic/water-science-school/science/floods-and-recurrence-intervals?qt-science_center_objects=0#qt-science_center_objects' target='_blank'>More Info</a></span>
+					<div class="feInfoTextWrap ffTestWrap">
+						<span class="feInfoText"><b>Flood Frequency</b><br>In any given year, there is a 20% chance of a 1-in-5-year (or greater) flood, a 1% chance of a 1-in-100-year (or greater) flood, and a 0.2% chance of a 1-in-500-year (or greater) flood. <a href='https://www.usgs.gov/special-topic/water-science-school/science/floods-and-recurrence-intervals?qt-science_center_objects=0#qt-science_center_objects' target='_blank'>More Info</a></span>
 						<i class="fa fa-close feInfo feInfoClose"></i>
 					</div>
 				`)
+				$(`#${t.id}top-controls i`).click(function(c){
+					var e = c.currentTarget;
+					$(".feInfoTextWrap").hide();
+					$(".ffInfoWrap").show();
+					if ( $(e).hasClass('feInfoOpen') ){
+						$(e).parent().parent().find(".feInfoTextWrap").show();
+					}
+					if ( $(e).hasClass('feInfoClose') ){
+						$(e).parent().parent().find(".feInfoWrap").show();
+					}
+					$(e).parent().hide();
+				})
+				$(`.ffTestWrap`).css({"right":"14px","top":"9px"})
 			}
 		});
     }
