@@ -325,7 +325,7 @@ function ( 	declare ) {
 							vis:false
 						},
 						SOVI:{
-							values:[],vis:true,min:-2.165,max:-0.459,step:0.001,shfld:true,
+							values:[],vis:true,min:-2.166,max:-0.460,step:0.001,shfld:true,
 							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
@@ -395,7 +395,7 @@ function ( 	declare ) {
 							info:"<b>Estimated agricultural losses from flooding ($)<b/><br>Estimate of agricultural losses to row crops (in USD) assuming a 100-year flood of 24-hour inundation duration occurring on June 1. For more information on the modeling approach, see ch. 6 of <a href='https://www.hec.usace.army.mil/software/hec-fia/documentation/CPD-81c,%20HEC-FIA%20Technical%20Reference%20Manual.pdf' target='_blank'>this document</a>."
 						},
 						SOVI:{
-							values:[],vis:true,min:-2.165,max:-0.459,step:0.001,shfld:true,
+							values:[],vis:true,min:-2.166,max:-0.460,step:0.001,shfld:true,
 							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
@@ -464,7 +464,7 @@ function ( 	declare ) {
 							vis:false
 						},
 						SOVI:{
-							values:[],vis:true,min:-2.165,max:-0.459,step:0.001,shfld:true,
+							values:[],vis:true,min:-2.166,max:-0.460,step:0.001,shfld:true,
 							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
@@ -535,7 +535,7 @@ function ( 	declare ) {
 							vis:false
 						},
 						SOVI:{
-							values:[],vis:true,min:-2.165,max:-0.459,step:0.001,shfld:true,
+							values:[],vis:true,min:-2.166,max:-0.460,step:0.001,shfld:true,
 							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
@@ -606,7 +606,7 @@ function ( 	declare ) {
 							info:"<b>Estimated agricultural losses from flooding ($)<b/><br>Estimate of agricultural losses to row crops (in USD) assuming a 100-year flood of 24-hour inundation duration occurring on June 1. For more information on the modeling approach, see ch. 6 of <a href='https://www.hec.usace.army.mil/software/hec-fia/documentation/CPD-81c,%20HEC-FIA%20Technical%20Reference%20Manual.pdf' target='_blank'>this document</a>."
 						},
 						SOVI:{
-							values:[],vis:true,min:-2.165,max:-0.459,step:0.001,shfld:true,
+							values:[],vis:true,min:-2.166,max:-0.460,step:0.001,shfld:true,
 							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
@@ -676,7 +676,7 @@ function ( 	declare ) {
 							vis:false
 						},
 						SOVI:{
-							values:[],vis:true,min:-2.165,max:-0.459,step:0.001,shfld:true,
+							values:[],vis:true,min:-2.166,max:-0.460,step:0.001,shfld:true,
 							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
@@ -746,7 +746,7 @@ function ( 	declare ) {
 							vis:false
 						},
 						SOVI:{
-							values:[],vis:true,min:-3.880,max:1.749,step:0.001,shfld:true,
+							values:[],vis:true,min:-3.881,max:1.749,step:0.001,shfld:true,
 							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
@@ -816,7 +816,7 @@ function ( 	declare ) {
 							info:"<b>Estimated agricultural losses from flooding ($)<b/><br>Estimate of agricultural losses to row crops (in USD) assuming a 100-year flood of 24-hour inundation duration occurring on June 1. For more information on the modeling approach, see ch. 6 of <a href='https://www.hec.usace.army.mil/software/hec-fia/documentation/CPD-81c,%20HEC-FIA%20Technical%20Reference%20Manual.pdf' target='_blank'>this document</a>."
 						},
 						SOVI:{
-							values:[],vis:true,min:-3.880,max:1.749,step:0.001,shfld:true,
+							values:[],vis:true,min:-3.881,max:1.749,step:0.001,shfld:true,
 							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
@@ -885,7 +885,7 @@ function ( 	declare ) {
 							vis:false
 						},
 						SOVI:{
-							values:[],vis:true,min:-3.880,max:1.749,step:0.001,shfld:true,
+							values:[],vis:true,min:-3.881,max:1.749,step:0.001,shfld:true,
 							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
@@ -955,7 +955,7 @@ function ( 	declare ) {
 							vis:false
 						},
 						SOVI:{
-							values:[],vis:true,min:-3.880,max:1.749,step:0.001,shfld:true,
+							values:[],vis:true,min:-3.881,max:1.749,step:0.001,shfld:true,
 							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
@@ -1026,7 +1026,7 @@ function ( 	declare ) {
 							info:"<b>Estimated agricultural losses from flooding ($)<b/><br>Estimate of agricultural losses to row crops (in USD) assuming a 100-year flood of 24-hour inundation duration occurring on June 1. For more information on the modeling approach, see ch. 6 of <a href='https://www.hec.usace.army.mil/software/hec-fia/documentation/CPD-81c,%20HEC-FIA%20Technical%20Reference%20Manual.pdf' target='_blank'>this document</a>."
 						},
 						SOVI:{
-							values:[],vis:true,min:-3.880,max:1.749,step:0.001,shfld:true,
+							values:[],vis:true,min:-3.881,max:1.749,step:0.001,shfld:true,
 							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
@@ -1096,7 +1096,7 @@ function ( 	declare ) {
 							vis:false
 						},
 						SOVI:{
-							values:[],vis:true,min:-3.880,max:1.749,step:0.001,shfld:true,
+							values:[],vis:true,min:-3.881,max:1.749,step:0.001,shfld:true,
 							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					}
