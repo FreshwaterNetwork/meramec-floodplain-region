@@ -222,12 +222,6 @@ function ( 	declare ) {
 								field:"Dam2050",
 								label:"Potential Future Flood Damages to Structures (2050) ($)",
 								unit:""
-							},
-							con1:{
-								type:"slider",
-								field:"Damage_2",
-								label:"Estimated agricultural losses from flooding ($)",
-								unit:""
 							}
 						}
 					},
@@ -256,7 +250,7 @@ function ( 	declare ) {
 				}	
 				// definition expression root field names
 				t.exp = {
-					Acres:"", TN:"", TP:"", Sed:"", SedAcc:"", DINCY:"", impWet:"", NCCPI:"", fprank:"", adjProt:"", EcoSig:"", inIBA:"",	WT_TOT:"", ABCcorr:"", anyHab:"", cumu_hci:"", HPFedEnd:"", popnow:"", pop2050:"", Dam2050:"", Damage_2:"", SOVI:""
+					Acres:"", TN:"", TP:"", Sed:"", SedAcc:"", DINCY:"", impWet:"", NCCPI:"", fprank:"", adjProt:"", EcoSig:"", inIBA:"",	WT_TOT:"", ABCcorr:"", anyHab:"", cumu_hci:"", HPFedEnd:"", popnow:"", pop2050:"", Dam2050:"", SOVI:""
 				}
 				// object for range slider
 				t.sliderObj = {
@@ -321,12 +315,9 @@ function ( 	declare ) {
 							values:[],vis:true,min:313176,max:5207578,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
-						Damage_2:{
-							vis:false
-						},
 						SOVI:{
 							values:[],vis:true,min:-2.166,max:-0.458,step:0.001,shfld:true,
-							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
+							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables. At the national scale, values below -1 are considered low social vulnerability, -1 to +1 are medium, and above +1 are high. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
 					// huc 12 + protection + 1 in 100 year flood
@@ -390,13 +381,9 @@ function ( 	declare ) {
 							values:[],vis:true,min:1116767,max:82900000,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
-						Damage_2:{
-							values:[],vis:true,min:4199,max:437953,shfld:true,
-							info:"<b>Estimated agricultural losses from flooding ($)<b/><br>Estimate of agricultural losses to row crops (in USD) assuming a 100-year flood of 24-hour inundation duration occurring on June 1. For more information on the modeling approach, see ch. 6 of <a href='https://www.hec.usace.army.mil/software/hec-fia/documentation/CPD-81c,%20HEC-FIA%20Technical%20Reference%20Manual.pdf' target='_blank'>this document</a>."
-						},
 						SOVI:{
 							values:[],vis:true,min:-2.166,max:-0.458,step:0.001,shfld:true,
-							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
+							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables. At the national scale, values below -1 are considered low social vulnerability, -1 to +1 are medium, and above +1 are high. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
 					// huc 12 + protection + 1 in 500 year flood
@@ -460,12 +447,9 @@ function ( 	declare ) {
 							values:[],vis:true,min:3928452,max:150000000,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
-						Damage_2:{
-							vis:false
-						},
 						SOVI:{
 							values:[],vis:true,min:-2.166,max:-0.458,step:0.001,shfld:true,
-							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
+							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables. At the national scale, values below -1 are considered low social vulnerability, -1 to +1 are medium, and above +1 are high. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
 
@@ -530,9 +514,6 @@ function ( 	declare ) {
 						Dam2050:{
 							values:[],vis:true,min:105857,max:5013106,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
-						},
-						Damage_2:{
-							vis:false
 						},
 						SOVI:{
 							values:[],vis:true,min:-2.166,max:-0.458,step:0.001,shfld:true,
@@ -601,19 +582,15 @@ function ( 	declare ) {
 							values:[],vis:true,min:983579,max:61200000,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
-						Damage_2:{
-							values:[],vis:true,min:4199,max:437953,shfld:true,
-							info:"<b>Estimated agricultural losses from flooding ($)<b/><br>Estimate of agricultural losses to row crops (in USD) assuming a 100-year flood of 24-hour inundation duration occurring on June 1. For more information on the modeling approach, see ch. 6 of <a href='https://www.hec.usace.army.mil/software/hec-fia/documentation/CPD-81c,%20HEC-FIA%20Technical%20Reference%20Manual.pdf' target='_blank'>this document</a>."
-						},
 						SOVI:{
 							values:[],vis:true,min:-2.166,max:-0.458,step:0.001,shfld:true,
-							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
+							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables. At the national scale, values below -1 are considered low social vulnerability, -1 to +1 are medium, and above +1 are high. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
 					// huc 12 + restoration + 1 in 500 year flood
 					h12r3:{
 						Acres:{
-							values:[],vis:true,min:295,max:5323,
+							values:[],vis:true,min:295,max:5523,
 							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
 						},
 						TN:{
@@ -672,12 +649,9 @@ function ( 	declare ) {
 							values:[],vis:true,min:2043340,max:134000000,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
-						Damage_2:{
-							vis:false
-						},
 						SOVI:{
 							values:[],vis:true,min:-2.166,max:-0.458,step:0.001,shfld:true,
-							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
+							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables. At the national scale, values below -1 are considered low social vulnerability, -1 to +1 are medium, and above +1 are high. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
 
@@ -742,12 +716,9 @@ function ( 	declare ) {
 							values:[],vis:true,min:0,max:2315257,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
-						Damage_2:{
-							vis:false
-						},
 						SOVI:{
 							values:[],vis:true,min:-3.881,max:1.749,step:0.001,shfld:true,
-							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
+							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables. At the national scale, values below -1 are considered low social vulnerability, -1 to +1 are medium, and above +1 are high. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
 					// catchment + protection + 1 in 100 year flood
@@ -811,19 +782,15 @@ function ( 	declare ) {
 							values:[],vis:true,min:0,max:27400000,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
-						Damage_2:{
-							values:[],vis:true,min:0,max:437953,shfld:true,
-							info:"<b>Estimated agricultural losses from flooding ($)<b/><br>Estimate of agricultural losses to row crops (in USD) assuming a 100-year flood of 24-hour inundation duration occurring on June 1. For more information on the modeling approach, see ch. 6 of <a href='https://www.hec.usace.army.mil/software/hec-fia/documentation/CPD-81c,%20HEC-FIA%20Technical%20Reference%20Manual.pdf' target='_blank'>this document</a>."
-						},
 						SOVI:{
 							values:[],vis:true,min:-3.881,max:1.749,step:0.001,shfld:true,
-							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
+							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables. At the national scale, values below -1 are considered low social vulnerability, -1 to +1 are medium, and above +1 are high. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
 					// catchment + protection + 1 in 500 year flood
 					catchp3:{
 						Acres:{
-							values:[],vis:true,min:0,max:63919,
+							values:[],vis:true,min:0,max:454,
 							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
 						},
 						TN:{
@@ -881,12 +848,9 @@ function ( 	declare ) {
 							values:[],vis:true,min:0,max:40200000,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
-						Damage_2:{
-							vis:false
-						},
 						SOVI:{
 							values:[],vis:true,min:-3.881,max:1.749,step:0.001,shfld:true,
-							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
+							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables. At the national scale, values below -1 are considered low social vulnerability, -1 to +1 are medium, and above +1 are high. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
 					// catchment + restoration + 1 in 5 year flood
@@ -951,12 +915,9 @@ function ( 	declare ) {
 							values:[],vis:true,min:0,max:2797808,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
-						Damage_2:{
-							vis:false
-						},
 						SOVI:{
 							values:[],vis:true,min:-3.881,max:1.749,step:0.001,shfld:true,
-							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
+							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables. At the national scale, values below -1 are considered low social vulnerability, -1 to +1 are medium, and above +1 are high. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
 					// catchment + restoration + 1 in 100 year flood
@@ -1021,13 +982,9 @@ function ( 	declare ) {
 							values:[],vis:true,min:0,max:19500000,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
-						Damage_2:{
-							values:[],vis:true,min:0,max:437953,shfld:true,
-							info:"<b>Estimated agricultural losses from flooding ($)<b/><br>Estimate of agricultural losses to row crops (in USD) assuming a 100-year flood of 24-hour inundation duration occurring on June 1. For more information on the modeling approach, see ch. 6 of <a href='https://www.hec.usace.army.mil/software/hec-fia/documentation/CPD-81c,%20HEC-FIA%20Technical%20Reference%20Manual.pdf' target='_blank'>this document</a>."
-						},
 						SOVI:{
 							values:[],vis:true,min:-3.881,max:1.749,step:0.001,shfld:true,
-							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
+							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables. At the national scale, values below -1 are considered low social vulnerability, -1 to +1 are medium, and above +1 are high. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
 					// catchment + restoration + 1 in 500 year flood
@@ -1085,19 +1042,16 @@ function ( 	declare ) {
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:253,
+							values:[],vis:true,min:0,max:254,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
 							values:[],vis:true,min:0,max:52300000,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
-						Damage_2:{
-							vis:false
-						},
 						SOVI:{
 							values:[],vis:true,min:-3.881,max:1.749,step:0.001,shfld:true,
-							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability t o environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
+							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables. At the national scale, values below -1 are considered low social vulnerability, -1 to +1 are medium, and above +1 are high. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					}
 				}
