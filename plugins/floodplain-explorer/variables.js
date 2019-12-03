@@ -1359,7 +1359,7 @@ function ( 	declare ) {
 				// Wrap header with div
 				$(`h4:contains("View Floodplains By Watershed")`).wrap('<div id="' + t.id + 'fbw-wrap" style="position:relative;"/>')
 				// Add info icon next to Select Management Action
-				$(`#${t.id}ma-wrap`).prepend(`
+				$(`#${t.id}fbw-wrap`).prepend(`
 					<div class="ffInfoWrap feInfoWrap">
 						<i class="fa fa-info-circle feInfo feInfoOpen"></i>
 					</div>
