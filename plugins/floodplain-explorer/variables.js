@@ -1334,7 +1334,7 @@ function ( 	declare ) {
 			modifications: function(t){
 				// Wrap header with div
 				$(`h4:contains("Select Flood Frequency")`).wrap('<div id="' + t.id + 'ff-wrap" style="position:relative;"/>')
-				// Add zoom to activate text above Catchments
+				// Add info icon next to Select Flood Frequency
 				$(`#${t.id}ff-wrap`).prepend(`
 					<div class="ffInfoWrap feInfoWrap">
 						<i class="fa fa-info-circle feInfo feInfoOpen"></i>
@@ -1344,10 +1344,35 @@ function ( 	declare ) {
 						<i class="fa fa-close feInfo feInfoClose"></i>
 					</div>
 				`)
+				// Wrap header with div
+				$(`h4:contains("Select Management Action")`).wrap('<div id="' + t.id + 'ma-wrap" style="position:relative;"/>')
+				// Add info icon next to Select Management Action
+				$(`#${t.id}ma-wrap`).prepend(`
+					<div class="ffInfoWrap feInfoWrap">
+						<i class="fa fa-info-circle feInfo feInfoOpen"></i>
+					</div>
+					<div class="feInfoTextWrap ffTestWrap">
+						<span class="feInfoText"><b>Management Action</b><br>If you choose &quot;protection&quot;, you are basing analysis on floodplains in forest/wetland/grassland. If you choose &quot;restoration&quot;, you are basing analysis on floodplain in agricultural and pasture land.</span>
+						<i class="fa fa-close feInfo feInfoClose"></i>
+					</div>
+				`)
+				// Wrap header with div
+				$(`h4:contains("View Floodplains By Watershed")`).wrap('<div id="' + t.id + 'fbw-wrap" style="position:relative;"/>')
+				// Add info icon next to Select Management Action
+				$(`#${t.id}ma-wrap`).prepend(`
+					<div class="ffInfoWrap feInfoWrap">
+						<i class="fa fa-info-circle feInfo feInfoOpen"></i>
+					</div>
+					<div class="feInfoTextWrap ffTestWrap">
+						<span class="feInfoText"><b>Floodplains By Watershed</b><br>You may click on a HUC12 or catchment unit on the map to view a pop-up box with more information about attributes for that unit.</span>
+						<i class="fa fa-close feInfo feInfoClose"></i>
+					</div>
+				`)
+				// Handle clicks on info icons created above
 				$(`#${t.id}top-controls i`).click(function(c){
 					var e = c.currentTarget;
 					$(".feInfoTextWrap").hide();
-					$(".ffInfoWrap").show();
+					$(e).parent().parent().find(".ffInfoWrap").show();
 					if ( $(e).hasClass('feInfoOpen') ){
 						$(e).parent().parent().find(".feInfoTextWrap").show();
 					}
