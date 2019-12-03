@@ -1372,7 +1372,7 @@ function ( 	declare ) {
 				$(`#${t.id}top-controls i`).click(function(c){
 					var e = c.currentTarget;
 					$(".feInfoTextWrap").hide();
-					$(e).parent().parent().find(".ffInfoWrap").show();
+					$(".ffInfoWrap").show();
 					if ( $(e).hasClass('feInfoOpen') ){
 						$(e).parent().parent().find(".feInfoTextWrap").show();
 					}
