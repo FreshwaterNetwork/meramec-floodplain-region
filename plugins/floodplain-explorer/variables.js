@@ -6,7 +6,7 @@ function ( 	declare ) {
         return declare(null, {
 			makeVariables: function(t){	
 				// map service URL
-				t.url = "https://cirrus.tnc.org/arcgis/rest/services/FN_AGR/MeramecDev/MapServer";
+				t.url = "https://cirrus.tnc.org/arcgis/rest/services/FN_AGR/Meramec/MapServer";
 				// build top level controls
 				t.topObj = {
 					introP: "This floodplain prioritization tool is designed to identify critical opportunities for floodplain protection and restoration in the lower Meramec River basin in Missouri. Use the selector widgets below to specify criteria related to water quality, wildlife habitat, and human exposure to flood risk. The map on the right will change in response to your selections to identify sites meeting these criteria, identifying those geographies where floodplain conservation is likely to have the greatest positive impact on the health of this river system.",
