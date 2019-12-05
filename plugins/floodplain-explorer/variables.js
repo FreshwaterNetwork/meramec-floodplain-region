@@ -241,26 +241,16 @@ function ( 	declare ) {
 				// object to build supporting layers
 				t.supportingLayersObj = {
 					visible:true,
+					clickLayers:true,
+					layersToClick:[2,3],
 					controls:{
 						con0:{
 							value:"2",
-							label:"100-Year Floodplain"
+							label:"USACE TNC Meramec Structures 100YR"
 						},
 						con1:{
 							value:"3",
 							label:"Lower Meramec Buyout Targets"
-						},
-						con2:{
-							value:"4",
-							label:"5-Year Floodplain"
-						},
-						con3:{
-							value:"5",
-							label:"100-Year Floodplain"
-						},
-						con4:{
-							value:"6",
-							label:"500-Year Floodplain"
 						}
 					}
 				}	
@@ -1398,6 +1388,21 @@ function ( 	declare ) {
 					$(e).parent().hide();
 				})
 				$(`.ffTestWrap`).css({"right":"14px","top":"9px"})
+			},
+			eventMods: function(t){
+				// turn off floodplain layers
+				let ids = [4,5,6]
+				$.each(t.obj.supportingLayers,function(i,v){
+					$.each(ids,function(i1,v1){
+						if (v == v1){
+							let index = t.obj.supportingLayers.indexOf(v);
+							t.obj.supportingLayers.splice(index,1);
+						}
+					})
+				})
+				// add selected floodplain layer
+				t.obj.supportingLayers.push(ids[t.obj.floodFreq-1])
+				t.supportingLayer.setVisibleLayers(t.obj.supportingLayers)
 			}
 		});
     }

@@ -17,22 +17,193 @@
 	#hideDesc .feInfoClose:hover{
 		font-weight:bold;
 	}
+	#puTitle{
+		color:#5d6165; margin:0 0 4px 0;
+	}
 </style>
 <div id="popupAttWrap">
-	<label for="NAME">Name</label><input style="width:70%;" type="text" name="NAME" id="NAME" disabled><br>
-	<label for="AreaAc">Watershed area (acres)</label><input type="text" name="AreaAc" id="AreaAc" disabled><br>
-	<label for="Acres_p2">Acres of floodplain (100-year) in forest or wetland</label><input type="text" name="Acres_p2" id="Acres_p2" disabled><br>
-	<label for="Acres_r2">Acres of floodplain (100-year) in ag or potential grazing land</label><input type="text" name="Acres_r2" id="Acres_r2" disabled><br>
-	<label for="TN_p2">Local nitrogen loading (1-100 scale)</label><input type="text" name="TN_p2" id="TN_p2" disabled><br>
-	<label for="TP_p2">Local phosphorus loading (1-100 scale)</label><input type="text" name="TP_p2" id="TP_p2" disabled><br>
-	<label for="Sed_p2">Local sediment loading (1-100 scale)</label><input type="text" name="Sed_p2" id="Sed_p2" disabled><br>
-	<label for="HPFedEnd">Number of federally endangered species occurrences</label><input type="text" name="HPFedEnd" id="HPFedEnd" disabled><br>
-	<label for="popnow_2">Current pop in 100 yr floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="popnow_2" id="popnow_2" disabled><br>
-	<label for="pop2050_2">2050 pop. in 100 yr. floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="pop2050_2" id="pop2050_2" disabled><br>
-	<label for="Dam2050_2">Potential 2050 flood damage to buildings in 100-year floodplain</label><input type="text" name="Dam2050_2" id="Dam2050_2" disabled><br>
-	<label for="SOVI">Social vulnerability index</label><input type="text" name="SOVI" id="SOVI" disabled><br>
+	<h5 id="puTitle"></h5>
+	<div class="puLayerWrap HUC12s NHDCatchments">
+		<label for="NAME">Name</label><input style="width:70%;" type="text" name="NAME" id="NAME" disabled><br>
+		<label for="AreaAc">Watershed area (acres)</label><input type="text" name="AreaAc" id="AreaAc" disabled><br>
+		<div class="popupLabel popup-p1">
+			<label for="Acres_p1">Acres of floodplain (5-year) in forest or wetland</label><input type="text" name="Acres_p1" id="Acres_p1" disabled>
+		</div>
+		<div class="popupLabel popup-p2">
+			<label for="Acres_p2">Acres of floodplain (100-year) in forest or wetland</label><input type="text" name="Acres_p2" id="Acres_p2" disabled>
+		</div>
+		<div class="popupLabel popup-p3">
+			<label for="Acres_p3">Acres of floodplain (500-year) in forest or wetland</label><input type="text" name="Acres_p3" id="Acres_p3" disabled>
+		</div>
+		<div class="popupLabel popup-r1">	
+			<label for="Acres_r1">Acres of floodplain (5-year) in ag or potential grazing land</label><input type="text" name="Acres_r1" id="Acres_r1" disabled>
+		</div>
+		<div class="popupLabel popup-r2">
+			<label for="Acres_r2">Acres of floodplain (100-year) in ag or potential grazing land</label><input type="text" name="Acres_r2" id="Acres_r2" disabled>
+		</div>
+		<div class="popupLabel popup-r3">
+			<label for="Acres_r3">Acres of floodplain (500-year) in ag or potential grazing land</label><input type="text" name="Acres_r3" id="Acres_r3" disabled>
+		</div>		
+
+		<div class="popupLabel popup-p1">
+			<label for="TN_p1">Local nitrogen loading (5-year) 1-100 scale</label><input type="text" name="TN_p1" id="TN_p1" disabled>
+		</div>
+		<div class="popupLabel popup-p2">	
+			<label for="TN_p2">Local nitrogen loading (100-year) 1-100 scale</label><input type="text" name="TN_p2" id="TN_p2" disabled>
+		</div>
+		<div class="popupLabel popup-p3">	
+			<label for="TN_p3">Local nitrogen loading (500-year) 1-100 scale</label><input type="text" name="TN_p3" id="TN_p3" disabled>
+		</div>
+		<div class="popupLabel popup-r1">
+			<label for="TN_r1">Local nitrogen loading (5-year) 1-100 scale</label><input type="text" name="TN_r1" id="TN_r1" disabled>
+		</div>
+		<div class="popupLabel popup-r2">	
+			<label for="TN_r2">Local nitrogen loading (100-year) 1-100 scale</label><input type="text" name="TN_r2" id="TN_r2" disabled>
+		</div>
+		<div class="popupLabel popup-r3">	
+			<label for="TN_r3">Local nitrogen loading (500-year) 1-100 scale</label><input type="text" name="TN_r3" id="TN_r3" disabled>
+		</div>
+
+		<div class="popupLabel popup-p1">
+			<label for="TP_p1">Local phosphorus loading (5-year) 1-100 scale</label><input type="text" name="TP_p1" id="TP_p1" disabled>
+		</div>
+		<div class="popupLabel popup-p2">	
+			<label for="TP_p2">Local phosphorus loading (100-year) 1-100 scale</label><input type="text" name="TP_p2" id="TP_p2" disabled>
+		</div>	
+		<div class="popupLabel popup-p3">
+			<label for="TP_p3">Local phosphorus loading (500-year) 1-100 scale</label><input type="text" name="TP_p3" id="TP_p3" disabled>
+		</div>
+		<div class="popupLabel popup-r1">
+			<label for="TP_r1">Local phosphorus loading (5-year) 1-100 scale</label><input type="text" name="TP_r1" id="TP_r1" disabled>
+		</div>
+		<div class="popupLabel popup-r2">	
+			<label for="TP_r2">Local phosphorus loading (100-year) 1-100 scale</label><input type="text" name="TP_r2" id="TP_r2" disabled>
+		</div>	
+		<div class="popupLabel popup-r3">
+			<label for="TP_r3">Local phosphorus loading (500-year) 1-100 scale</label><input type="text" name="TP_r3" id="TP_r3" disabled>
+		</div>
+			
+		<div class="popupLabel popup-p1">	
+			<label for="Sed_p1">Local sediment loading (5-year) 1-100 scale</label><input type="text" name="Sed_p1" id="Sed_p1" disabled>
+		</div>
+		<div class="popupLabel popup-p2">
+			<label for="Sed_p2">Local sediment loading (100-year) 1-100 scale</label><input type="text" name="Sed_p2" id="Sed_p2" disabled>
+		</div>
+		<div class="popupLabel popup-p3">	
+			<label for="Sed_p3">Local sediment loading (500-year) 1-100 scale</label><input type="text" name="Sed_p3" id="Sed_p3" disabled>
+		</div>
+		<div class="popupLabel popup-r1">	
+			<label for="Sed_r1">Local sediment loading (5-year) 1-100 scale</label><input type="text" name="Sed_r1" id="Sed_r1" disabled>
+		</div>
+		<div class="popupLabel popup-r2">
+			<label for="Sed_r2">Local sediment loading (100-year) 1-100 scale</label><input type="text" name="Sed_r2" id="Sed_r2" disabled>
+		</div>
+		<div class="popupLabel popup-r3">	
+			<label for="Sed_r3">Local sediment loading (500-year) 1-100 scale</label><input type="text" name="Sed_r3" id="Sed_r3" disabled>
+		</div>	
+		
+		<label for="HPFedEnd">Number of federally endangered species occurrences</label><input type="text" name="HPFedEnd" id="HPFedEnd" disabled><br>
+		
+		<div class="popupLabel popup-p1">	
+			<label for="popnow_p1">Current pop in 5 yr floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="popnow_p1" id="popnow_p1" disabled>
+		</div>
+		<div class="popupLabel popup-p2">	
+			<label for="popnow_p2">Current pop in 100 yr floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="popnow_p2" id="popnow_p2" disabled>
+		</div>
+		<div class="popupLabel popup-p3">	
+			<label for="popnow_p3">Current pop in 500 yr floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="popnow_p3" id="popnow_p3" disabled>
+		</div>
+		<div class="popupLabel popup-r1">	
+			<label for="popnow_r1">Current pop in 5 yr floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="popnow_r1" id="popnow_r1" disabled>
+		</div>
+		<div class="popupLabel popup-r2">	
+			<label for="popnow_r2">Current pop in 100 yr floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="popnow_pr" id="popnow_r2" disabled>
+		</div>
+		<div class="popupLabel popup-r3">	
+			<label for="popnow_r3">Current pop in 500 yr floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="popnow_r3" id="popnow_r3" disabled>
+		</div>
+
+		<div class="popupLabel popup-p1">
+			<label for="pop2050_p1">2050 pop. in 5 yr. floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="pop2050_p1" id="pop2050_p1" disabled>
+		</div>
+		<div class="popupLabel popup-p2">
+			<label for="pop2050_p2">2050 pop. in 100 yr. floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="pop2050_p2" id="pop2050_p2" disabled>
+		</div>
+		<div class="popupLabel popup-p3">
+			<label for="pop2050_p3">2050 pop. in 500 yr. floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="pop2050_p3" id="pop2050_p3" disabled>
+		</div>
+		<div class="popupLabel popup-r1">
+			<label for="pop2050_r1">2050 pop. in 5 yr. floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="pop2050_r1" id="pop2050_r1" disabled>
+		</div>
+		<div class="popupLabel popup-r2">
+			<label for="pop2050_r2">2050 pop. in 100 yr. floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="pop2050_r2" id="pop2050_r2" disabled>
+		</div>
+		<div class="popupLabel popup-r3">
+			<label for="pop2050_r3">2050 pop. in 500 yr. floodplain in forest/wetland/grassland/ag/pasture</label><input class="round" style="width:90px;" type="text" name="pop2050_r3" id="pop2050_r3" disabled>
+		</div>
+
+		<div class="popupLabel popup-p1">
+			<label for="Dam2050_p1">Potential 2050 flood damage to buildings in 5-year floodplain</label><input type="text" name="Dam2050_p1" id="Dam2050_p1" disabled>
+		</div>
+		<div class="popupLabel popup-p2">
+			<label for="Dam2050_p2">Potential 2050 flood damage to buildings in 100-year floodplain</label><input type="text" name="Dam2050_p2" id="Dam2050_p2" disabled>
+		</div>
+		<div class="popupLabel popup-p3">
+			<label for="Dam2050_p3">Potential 2050 flood damage to buildings in 500-year floodplain</label><input type="text" name="Dam2050_p3" id="Dam2050_p3" disabled>
+		</div>
+		<div class="popupLabel popup-r1">
+			<label for="Dam2050_r1">Potential 2050 flood damage to buildings in 5-year floodplain</label><input type="text" name="Dam2050_r1" id="Dam2050_r1" disabled>
+		</div>
+		<div class="popupLabel popup-r2">
+			<label for="Dam2050_r2">Potential 2050 flood damage to buildings in 100-year floodplain</label><input type="text" name="Dam2050_r2" id="Dam2050_r2" disabled>
+		</div>
+		<div class="popupLabel popup-r3">
+			<label for="Dam2050_r3">Potential 2050 flood damage to buildings in 500-year floodplain</label><input type="text" name="Dam2050_r3" id="Dam2050_r3" disabled>
+		</div>
+
+		<label for="SOVI">Social vulnerability index</label><input type="text" name="SOVI" id="SOVI" disabled><br>
+	</div>	
+	<div class="puLayerWrap USACETNCMeramecStructures100YR">
+		<label for="Found_HT">Found_HT</label><input type="text" name="Found_HT" id="Found_HT" disabled><br>
+		<label for="Site_Addre">Site_Addre</label><input type="text" name="Site_Addre" id="Site_Addre" disabled><br>
+		<label for="Sq_Ft">Sq_Ft</label><input type="text" name="Sq_Ft" id="Sq_Ft" disabled><br>
+		<label for="Year_Bui_1">Year_Bui_1</label><input type="text" name="Year_Bui_1" id="Year_Bui_1" disabled><br>
+		<label for="OccType">OccType</label><input type="text" name="OccType" id="OccType" disabled><br>
+		<label for="Land_Val">Land_Val</label><input type="text" name="Land_Val" id="Land_Val" disabled><br>
+		<label for="Struc_Val">Struc_Val</label><input type="text" name="Struc_Val" id="Struc_Val" disabled><br>
+		<label for="Tot_Val">Tot_Val</label><input type="text" name="Tot_Val" id="Tot_Val" disabled><br>
+		<label for="Found_Type">Found_Type</label><input type="text" name="Found_Type" id="Found_Type" disabled><br>
+		<label for="MUNICIPALI">MUNICIPALI</label><input type="text" name="MUNICIPALI" id="MUNICIPALI" disabled><br>
+		<label for="County">County</label><input type="text" name="County" id="County" disabled><br>
+		<label for="GSE_ft">GSE_ft</label><input type="text" name="GSE_ft" id="GSE_ft" disabled><br>
+		<label for="FFE">FFE</label><input type="text" name="FFE" id="FFE" disabled><br>
+		<!-- <label for="XID">XID</label><input type="text" name="XID" id="XID" disabled><br> -->
+		<label for="F10YR_Dep">F10YR_Dep</label><input type="text" name="F10YR_Dep" id="F10YR_Dep" disabled><br>
+		<label for="F25YR_Dep">F25YR_Dep</label><input type="text" name="F25YR_Dep" id="F25YR_Dep" disabled><br>
+		<label for="F50YR_Dep">F50YR_Dep</label><input type="text" name="F50YR_Dep" id="F50YR_Dep" disabled><br>
+		<label for="F100YR_Dep">F100YR_Dep</label><input type="text" name="F100YR_Dep" id="F100YR_Dep" disabled><br>
+		<label for="F500YR_Dep">F500YR_Dep</label><input type="text" name="F500YR_Dep" id="F500YR_Dep" disabled><br>
+		<label for="EnvroHub">EnvroHub</label><input type="text" name="EnvroHub" id="EnvroHub" disabled><br>
+		<label for="EnviroRank">EnviroRank</label><input type="text" name="EnviroRank" id="EnviroRank" disabled><br>
+		<label for="Recom_Cost">Recom_Cost</label><input type="text" name="Recom_Cost" id="Recom_Cost" disabled><br>
+		<label for="Recommen_1">Recommen_1</label><input type="text" name="Recommen_1" id="Recommen_1" disabled><br>
+		<label for="Recom_Co_1">Recom_Co_1</label><input type="text" name="Recom_Co_1" id="Recom_Co_1" disabled><br>
+		<label for="F100YRDEP">F100YRDEP</label><input type="text" name="F100YRDEP" id="F100YRDEP" disabled><br>
+	</div>	
+	<div class="puLayerWrap LowerMeramecBuyoutTargets">
+		<!-- <label for="Id">Id</label><input type="text" name="Id" id="Id" disabled><br> -->
+		<label for="Name">Name</label><input type="text" name="Name" id="Name" disabled><br>
+		<!-- <label for="XID">XID</label><input type="text" name="XID" id="XID" disabled><br> -->
+		<label for="RipZone">RipZone</label><input type="text" name="RipZone" id="RipZone" disabled><br>
+		<label for="WetRank">WetRank</label><input type="text" name="WetRank" id="WetRank" disabled><br>
+		<label for="ExistHab">ExistHab</label><input type="text" name="ExistHab" id="ExistHab" disabled><br>
+		<label for="EndangSp">EndangSp</label><input type="text" name="EndangSp" id="EndangSp" disabled><br>
+		<label for="PubAdjac">PubAdjac</label><input type="text" name="PubAdjac" id="PubAdjac" disabled><br>
+		<label for="EcoSig">EcoSig</label><input type="text" name="EcoSig" id="EcoSig" disabled><br>
+		<label for="Top20SPN">Top20SPN</label><input type="text" name="Top20SPN" id="Top20SPN" disabled><br>
+		<label for="Top20Sed">Top20Sed</label><input type="text" name="Top20Sed" id="Top20Sed" disabled><br>
+		<label for="FutureClim">FutureClim</label><input type="text" name="FutureClim" id="FutureClim" disabled><br>
+		<label for="TotalScore">TotalScore</label><input type="text" name="TotalScore" id="TotalScore" disabled><br>
+	</div>
 </div>
 <div id="hideDesc"><i class="fa fa-close feInfo feInfoClose"></i></div>
-<script>
-
-</script>
