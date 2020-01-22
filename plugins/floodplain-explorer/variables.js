@@ -246,11 +246,11 @@ function ( 	declare ) {
 					controls:{
 						con0:{
 							value:"2",
-							label:"USACE TNC Meramec Structures 100YR"
+							label:"Structures in the 1% Annual Exceedance Probability Floodplain"
 						},
 						con1:{
 							value:"3",
-							label:"Lower Meramec Buyout Targets"
+							label:"Environmental Hub Analysis"
 						}
 					}
 				}	
@@ -295,7 +295,7 @@ function ( 	declare ) {
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:596,
-							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2011_EAI_eco_significance.pdf' target='_blank'>More Info</a>"
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -311,11 +311,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:0,max:7,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency. <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland/grassland floodplain of the selected flood frequency. <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
 						},
 						pop2050:{
 							values:[],vis:true,min:1,max:70,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland/grassland floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
 						},
 						Dam2050:{
 							values:[],vis:true,min:313176,max:5207578,
@@ -361,7 +361,7 @@ function ( 	declare ) {
 						},
 						EcoSig:{
 							values:[],vis:true,min:23,max:1360,
-							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2011_EAI_eco_significance.pdf' target='_blank'>More Info</a>"
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -427,7 +427,7 @@ function ( 	declare ) {
 						},
 						EcoSig:{
 							values:[],vis:true,min:65,max:1914,
-							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2011_EAI_eco_significance.pdf' target='_blank'>More Info</a>"
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -495,7 +495,7 @@ function ( 	declare ) {
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:217,
-							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2011_EAI_eco_significance.pdf' target='_blank'>More Info</a>"
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -515,7 +515,7 @@ function ( 	declare ) {
 						},
 						pop2050:{
 							values:[],vis:true,min:0,max:62,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
 						},
 						Dam2050:{
 							values:[],vis:true,min:105857,max:5013106,
@@ -523,7 +523,7 @@ function ( 	declare ) {
 						},
 						SOVI:{
 							values:[],vis:true,min:-2.166,max:-0.458,step:0.001,shfld:true,
-							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables, and normalized to 0-100 scale. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
+							info:"<b>Index of social vulnerability to environmental hazards</b><br>Index characterizing social vulnerability to environmental hazards, drawing on 22 demographic variables. At the national scale, values below -1 are considered low social vulnerability, -1 to +1 are medium, and above +1 are high. <a href='http://artsandsciences.sc.edu/geog/hvri/faq' target='_blank'>More Info</a>"
 						}
 					},
 					// huc 12 + restoration + 1 in 100 year flood
@@ -562,7 +562,7 @@ function ( 	declare ) {
 						},
 						EcoSig:{
 							values:[],vis:true,min:123,max:1343,
-							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2011_EAI_eco_significance.pdf' target='_blank'>More Info</a>"
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -629,7 +629,7 @@ function ( 	declare ) {
 						},
 						EcoSig:{
 							values:[],vis:true,min:135,max:2319,
-							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2011_EAI_eco_significance.pdf' target='_blank'>More Info</a>"
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -696,7 +696,7 @@ function ( 	declare ) {
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:230,
-							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2011_EAI_eco_significance.pdf' target='_blank'>More Info</a>"
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -712,11 +712,11 @@ function ( 	declare ) {
 						},
 						popnow:{
 							values:[],vis:true,min:0,max:5,
-							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency. <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland/grassland floodplain of the selected flood frequency. <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
 						},
 						pop2050:{
 							values:[],vis:true,min:0,max:33,
-							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
+							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland/grassland floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
 						},
 						Dam2050:{
 							values:[],vis:true,min:0,max:2315257,
@@ -762,7 +762,7 @@ function ( 	declare ) {
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:396,
-							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2011_EAI_eco_significance.pdf' target='_blank'>More Info</a>"
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -828,7 +828,7 @@ function ( 	declare ) {
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:447,
-							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in natural cover within an ecologically significant	area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2011_EAI_eco_significance.pdf' target='_blank'>More Info</a>"
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -895,7 +895,7 @@ function ( 	declare ) {
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:75,
-							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2011_EAI_eco_significance.pdf' target='_blank'>More Info</a>"
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -962,7 +962,7 @@ function ( 	declare ) {
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:186,
-							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2011_EAI_eco_significance.pdf' target='_blank'>More Info</a>"
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -1029,7 +1029,7 @@ function ( 	declare ) {
 						},
 						EcoSig:{
 							values:[],vis:true,min:0,max:297,
-							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Ecological Significance Ranking</b><br>Acres of floodplain in ag or potentially grazed land within an ecologically significant area (significance ranking 4 or above). Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2011_EAI_eco_significance.pdf' target='_blank'>More Info</a>"
 						},
 						WT_TOT:{
 							values:[],vis:true,min:0,max:2,shfld:true,
@@ -1068,7 +1068,7 @@ function ( 	declare ) {
 					h12p1:{
 						impWet:{
 							vis:true,
-							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI _wetland_importance.pdf' target='_blank'>More Info</a>"
 						},
 						fprank:{
 							vis:false
@@ -1090,7 +1090,7 @@ function ( 	declare ) {
 					h12p2:{
 						impWet:{
 							vis:true,
-							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI _wetland_importance.pdf' target='_blank'>More Info</a>"
 						},
 						fprank:{
 							vis:false
@@ -1112,7 +1112,7 @@ function ( 	declare ) {
 					h12p3:{
 						impWet:{
 							vis:true,
-							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI _wetland_importance.pdf' target='_blank'>More Info</a>"
 						},
 						fprank:{
 							vis:false
@@ -1134,11 +1134,11 @@ function ( 	declare ) {
 					h12r1:{
 						impWet:{
 							vis:true,
-							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI _wetland_importance.pdf' target='_blank'>More Info</a>"
 						},
 						fprank:{
 							vis:true,
-							info:"<b>Floodplain Restoration Rank</b><br>Watershed contains floodplain in an area of floodplain restoration rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Restoration Rank</b><br>Watershed contains floodplain in an area of floodplain restoration rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI_restoration.pdf' target='_blank'>More Info</a>"
 						},
 						inIBA:{
 							vis:true,
@@ -1157,11 +1157,11 @@ function ( 	declare ) {
 					h12r2:{
 						impWet:{
 							vis:true,
-							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI _wetland_importance.pdf' target='_blank'>More Info</a>"
 						},
 						fprank:{
 							vis:true,
-							info:"<b>Floodplain Restoration Rank</b><br>Watershed contains floodplain in an area of floodplain restoration rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Restoration Rank</b><br>Watershed contains floodplain in an area of floodplain restoration rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI_restoration.pdf' target='_blank'>More Info</a>"
 						},
 						inIBA:{
 							vis:true,
@@ -1180,11 +1180,11 @@ function ( 	declare ) {
 					h12r3:{
 						impWet:{
 							vis:true,
-							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI _wetland_importance.pdf' target='_blank'>More Info</a>"
 						},
 						fprank:{
 							vis:true,
-							info:"<b>Floodplain Restoration Rank</b><br>Watershed contains floodplain in an area of floodplain restoration rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Restoration Rank</b><br>Watershed contains floodplain in an area of floodplain restoration rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI_restoration.pdf' target='_blank'>More Info</a>"
 						},
 						inIBA:{
 							vis:true,
@@ -1203,7 +1203,7 @@ function ( 	declare ) {
 					catchp1:{
 						impWet:{
 							vis:true,
-							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI _wetland_importance.pdf' target='_blank'>More Info</a>"
 						},
 						fprank:{
 							vis:false
@@ -1225,7 +1225,7 @@ function ( 	declare ) {
 					catchp2:{
 						impWet:{
 							vis:true,
-							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI _wetland_importance.pdf' target='_blank'>More Info</a>"
 						},
 						fprank:{
 							vis:false
@@ -1247,7 +1247,7 @@ function ( 	declare ) {
 					catchp3:{
 						impWet:{
 							vis:true,
-							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI _wetland_importance.pdf' target='_blank'>More Info</a>"
 						},
 						fprank:{
 							vis:false
@@ -1269,11 +1269,11 @@ function ( 	declare ) {
 					catchr1:{
 						impWet:{
 							vis:true,
-							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI _wetland_importance.pdf' target='_blank'>More Info</a>"
 						},
 						fprank:{
 							vis:true,
-							info:"<b>Floodplain Restoration Rank</b><br>Watershed contains floodplain in an area of floodplain restoration rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Restoration Rank</b><br>Watershed contains floodplain in an area of floodplain restoration rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI_restoration.pdf' target='_blank'>More Info</a>"
 						},
 						inIBA:{
 							vis:true,
@@ -1292,11 +1292,11 @@ function ( 	declare ) {
 					catchr2:{
 						impWet:{
 							vis:true,
-							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI _wetland_importance.pdf' target='_blank'>More Info</a>"
 						},
 						fprank:{
 							vis:true,
-							info:"<b>Floodplain Restoration Rank</b><br>Watershed contains floodplain in an area of floodplain restoration rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Restoration Rank</b><br>Watershed contains floodplain in an area of floodplain restoration rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI_restoration.pdf' target='_blank'>More Info</a>"
 						},
 						inIBA:{
 							vis:true,
@@ -1315,11 +1315,11 @@ function ( 	declare ) {
 					catchr3:{
 						impWet:{
 							vis:true,
-							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Wetland Importance Rank</b><br>Watershed contains floodplain in an area of wetland importance rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI _wetland_importance.pdf' target='_blank'>More Info</a>"
 						},
 						fprank:{
 							vis:true,
-							info:"<b>Floodplain Restoration Rank</b><br>Watershed contains floodplain in an area of floodplain restoration rank 5 or above. Data provided by the East-West Gateway Council of Governments."
+							info:"<b>Floodplain Restoration Rank</b><br>Watershed contains floodplain in an area of floodplain restoration rank 5 or above. Data provided by the East-West Gateway Council of Governments. <a href='plugins/floodplain-explorer/2015_EAI_restoration.pdf' target='_blank'>More Info</a>"
 						},
 						inIBA:{
 							vis:true,
