@@ -302,7 +302,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act. <a href='https://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/ESN/Totalnumberofatriskwetlandspecies.pdf' target='_blank'>More Info</a>"
 						},
 						cumu_hci:{
-							values:[],vis:true,min:1.687,max:3.622,step:0.001,shfld:true,
+							values:[],vis:true,min:1.686,max:3.622,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric. <a href='http://assessment.fishhabitat.org/#578a9a48e4b0c1aacab8976c/578a99f4e4b0c1aacab89699' target='_blank'>More Info</a>"
 						},
 						HPFedEnd:{
@@ -318,7 +318,7 @@ function ( 	declare ) {
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland/grassland floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
 						},
 						Dam2050:{
-							values:[],vis:true,min:313176,max:5207578,
+							values:[],vis:true,min:313176,max:5207579,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
 						SOVI:{
@@ -329,7 +329,7 @@ function ( 	declare ) {
 					// huc 12 + protection + 1 in 100 year flood
 					h12p2:{
 						Acres:{
-							values:[],vis:true,min:36,max:1578,
+							values:[],vis:true,min:36,max:1579,
 							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in natural land cover that is not currently in protected status."
 						},
 						TN:{
@@ -368,7 +368,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act. <a href='https://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/ESN/Totalnumberofatriskwetlandspecies.pdf' target='_blank'>More Info</a>"
 						},
 						cumu_hci:{
-							values:[],vis:true,min:1.687,max:3.622,step:0.001,shfld:true,
+							values:[],vis:true,min:1.686,max:3.622,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric. <a href='http://assessment.fishhabitat.org/#578a9a48e4b0c1aacab8976c/578a99f4e4b0c1aacab89699' target='_blank'>More Info</a>"
 						},
 						HPFedEnd:{
@@ -434,7 +434,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act. <a href='https://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/ESN/Totalnumberofatriskwetlandspecies.pdf' target='_blank'>More Info</a>"
 						},
 						cumu_hci:{
-							values:[],vis:true,min:1.687,max:3.622,step:0.001,shfld:true,
+							values:[],vis:true,min:1.686,max:3.622,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric. <a href='http://assessment.fishhabitat.org/#578a9a48e4b0c1aacab8976c/578a99f4e4b0c1aacab89699' target='_blank'>More Info</a>"
 						},
 						HPFedEnd:{
@@ -486,7 +486,7 @@ function ( 	declare ) {
 							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0.147,max:0.598,step:0.001,
+							values:[],vis:true,min:0.147,max:0.599,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
@@ -502,7 +502,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act. <a href='https://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/ESN/Totalnumberofatriskwetlandspecies.pdf' target='_blank'>More Info</a>"
 						},
 						cumu_hci:{
-							values:[],vis:true,min:1.687,max:3.622,step:0.001,shfld:true,
+							values:[],vis:true,min:1.686,max:3.622,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric. <a href='http://assessment.fishhabitat.org/#578a9a48e4b0c1aacab8976c/578a99f4e4b0c1aacab89699' target='_blank'>More Info</a>"
 						},
 						HPFedEnd:{
@@ -518,7 +518,7 @@ function ( 	declare ) {
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
 						},
 						Dam2050:{
-							values:[],vis:true,min:105857,max:5013106,
+							values:[],vis:true,min:105857,max:5013107,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
 						SOVI:{
@@ -553,7 +553,7 @@ function ( 	declare ) {
 							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0.429,max:0.543,step:0.001,
+							values:[],vis:true,min:0.429,max:0.544,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
@@ -569,7 +569,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act. <a href='https://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/ESN/Totalnumberofatriskwetlandspecies.pdf' target='_blank'>More Info</a>"
 						},
 						cumu_hci:{
-							values:[],vis:true,min:1.687,max:3.622,step:0.001,shfld:true,
+							values:[],vis:true,min:1.686,max:3.622,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric. <a href='http://assessment.fishhabitat.org/#578a9a48e4b0c1aacab8976c/578a99f4e4b0c1aacab89699' target='_blank'>More Info</a>"
 						},
 						HPFedEnd:{
@@ -620,11 +620,11 @@ function ( 	declare ) {
 							info:"<b>Nutrient loading to Gulf of Mexico (SPARROW model)</b><br>Kg/yr of nitrogen and phosphorus from within a given watershed that reaches Gulf of Mexico, divided by watershed area in km2, all normalized to 0-100 scale. For restoration priorities, identify catchments <i>higher</i> in this metric."
 						},
 						NCCPI:{
-							values:[],vis:true,min:0.413,max:0.522,step:0.001,
+							values:[],vis:true,min:0.412,max:0.522,step:0.001,
 							info:"<b>Agricultural productivity potential of soils</b>The National Commodity Crop Productivity Index -- an index characterizing soil's inherent capacity to produce non-irrigated commodity crops (0 - 1). Lower value suggests less productive soil, and therefore more viable opportunity for restoration.<br>"
 						},
 						adjProt:{
-							values:[],vis:true,min:0,max:650,
+							values:[],vis:true,min:0,max:651,
 							info:"<b>Public Lands Adjacency</b><br>Acres of floodplain in ag or potentially grazed land within 1/4 mile of protected land. Protected land includes areas from Protected Areas Database of the U.S. & Great Rivers Greenway infrastructure."
 						},
 						EcoSig:{
@@ -636,7 +636,7 @@ function ( 	declare ) {
 							info:"<b>At-Risk Wetland Species</b><br>Total number of wetland species in catchment considered Imperiled (G1/G2) by NatureServe or threatened or endangered under the Endangered Species Act. <a href='https://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/ESN/Totalnumberofatriskwetlandspecies.pdf' target='_blank'>More Info</a>"
 						},
 						cumu_hci:{
-							values:[],vis:true,min:1.687,max:3.622,step:0.001,shfld:true,
+							values:[],vis:true,min:1.686,max:3.622,step:0.001,shfld:true,
 							info:"<b>National Fish Habitat Partnership Cumulative Habitat Condition Index</b><br>Degree to which anthropogenic stressors in the watershed may be affecting fish habitat. Higher value = less extreme stressors. For protection priorities, identify catchments higher in this metric. <a href='http://assessment.fishhabitat.org/#578a9a48e4b0c1aacab8976c/578a99f4e4b0c1aacab89699' target='_blank'>More Info</a>"
 						},
 						HPFedEnd:{
@@ -719,7 +719,7 @@ function ( 	declare ) {
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland/grassland floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:2315257,
+							values:[],vis:true,min:0,max:2315258,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
 						SOVI:{
@@ -847,7 +847,7 @@ function ( 	declare ) {
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency. <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
 						},
 						pop2050:{
-							values:[],vis:true,min:0,max:153,
+							values:[],vis:true,min:0,max:154,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
 						},
 						Dam2050:{
@@ -862,7 +862,7 @@ function ( 	declare ) {
 					// catchment + restoration + 1 in 5 year flood
 					catchr1:{
 						Acres:{
-							values:[],vis:true,min:0,max:158,
+							values:[],vis:true,min:0,max:159,
 							info:"<b>Available floodplain area for given flood frequency and management action</b><br>Area of floodplain in ag or potentially grazed land that could potentially be restored."
 						},
 						TN:{
@@ -918,7 +918,7 @@ function ( 	declare ) {
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050."
 						},
 						Dam2050:{
-							values:[],vis:true,min:0,max:2797808,
+							values:[],vis:true,min:0,max:2797809,
 							info:"<b>Potential Future Flood Damages to Structures (2050) ($)</b><br>Average between moderate (SSP2) and high (SSP5) socioeconomic development scenarios. Scenario descriptions are available in the <a href='https://www.sciencedirect.com/science/article/pii/S0959378016300681' target='_blank'>linked paper</a>."
 						},
 						SOVI:{
