@@ -208,6 +208,24 @@ function ( 	declare ) {
 							},
 							con1:{
 								type:"slider",
+								field:"pop5",
+								label:"Population exposed to floods (present-day) (in all land covers)",
+								unit:""
+							},
+							con2:{
+								type:"slider",
+								field:"pop100",
+								label:"Population exposed to floods (present-day) (in all land covers)",
+								unit:""
+							},
+							con3:{
+								type:"slider",
+								field:"pop500",
+								label:"Population exposed to floods (present-day) (in all land covers)",
+								unit:""
+							},
+							con4:{
+								type:"slider",
 								field:"pop2050",
 								label:"Population exposed to floods (2050)",
 								unit:""
@@ -256,7 +274,7 @@ function ( 	declare ) {
 				}	
 				// definition expression root field names
 				t.exp = {
-					Acres:"", TN:"", TP:"", Sed:"", SedAcc:"", DINCY:"", impWet:"", NCCPI:"", fprank:"", adjProt:"", EcoSig:"", inIBA:"",	WT_TOT:"", ABCcorr:"", anyHab:"", cumu_hci:"", HPFedEnd:"", popnow:"", pop2050:"", Dam2050:"", SOVI:""
+					Acres:"", TN:"", TP:"", Sed:"", SedAcc:"", DINCY:"", impWet:"", NCCPI:"", fprank:"", adjProt:"", EcoSig:"", inIBA:"",	WT_TOT:"", ABCcorr:"", anyHab:"", cumu_hci:"", HPFedEnd:"", popnow:"", pop5:"", pop100:"", pop500:"", pop2050:"", Dam2050:"", SOVI:""
 				}
 				// object for range slider
 				t.sliderObj = {
@@ -312,6 +330,16 @@ function ( 	declare ) {
 						popnow:{
 							values:[],vis:true,min:0,max:7,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland/grassland floodplain of the selected flood frequency. <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+						},
+						pop5:{
+							values:[],vis:true,min:1,max:70,shfld:true,
+							info:"People currently living in the floodplain of the selected flood frequency, in all land covers.  <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+						},
+						pop100:{
+							vis:false
+						},
+						pop500:{
+							vis:false
 						},
 						pop2050:{
 							values:[],vis:true,min:1,max:70,
@@ -379,6 +407,16 @@ function ( 	declare ) {
 							values:[],vis:true,min:7,max:92,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency. <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
 						},
+						pop5:{
+							vis:false
+						},
+						pop100:{
+							values:[],vis:true,min:90,max:1097,shfld:true,
+							info:"People currently living in the floodplain of the selected flood frequency, in all land covers.  <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+						},
+						pop500:{
+							vis:false
+						},
 						pop2050:{
 							values:[],vis:true,min:15,max:515,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
@@ -444,6 +482,16 @@ function ( 	declare ) {
 						popnow:{
 							values:[],vis:true,min:14,max:384,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency. <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+						},
+						pop5:{
+							vis:false
+						},
+						pop100:{
+							vis:false
+						},
+						pop500:{
+							values:[],vis:true,min:145,max:4476,shfld:true,
+							info:"People currently living in the floodplain of the selected flood frequency, in all land covers.  <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
 						},
 						pop2050:{
 							values:[],vis:true,min:42,max:721,
@@ -513,6 +561,16 @@ function ( 	declare ) {
 							values:[],vis:true,min:0,max:17,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
 						},
+						pop5:{
+							values:[],vis:true,min:1,max:70,shfld:true,
+							info:"People currently living in the floodplain of the selected flood frequency, in all land covers.  <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+						},
+						pop100:{
+							vis:false
+						},
+						pop500:{
+							vis:false
+						},
 						pop2050:{
 							values:[],vis:true,min:0,max:62,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
@@ -579,6 +637,16 @@ function ( 	declare ) {
 						popnow:{
 							values:[],vis:true,min:14,max:270,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
+						},
+						pop5:{
+							vis:false
+						},
+						pop100:{
+							values:[],vis:true,min:90,max:1097,shfld:true,
+							info:"People currently living in the floodplain of the selected flood frequency, in all land covers.  <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+						},
+						pop500:{
+							vis:false
 						},
 						pop2050:{
 							values:[],vis:true,min:11,max:410,
@@ -647,6 +715,16 @@ function ( 	declare ) {
 							values:[],vis:true,min:32,max:731,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
 						},
+						pop5:{
+							vis:false
+						},
+						pop100:{
+							vis:false
+						},
+						pop500:{
+							values:[],vis:true,min:145,max:4476,shfld:true,
+							info:"People currently living in the floodplain of the selected flood frequency, in all land covers.  <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+						},
 						pop2050:{
 							values:[],vis:true,min:23,max:861,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050."
@@ -714,6 +792,16 @@ function ( 	declare ) {
 							values:[],vis:true,min:0,max:5,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland/grassland floodplain of the selected flood frequency. <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
 						},
+						pop5:{
+							values:[],vis:true,min:0,max:21,shfld:true,
+							info:"People currently living in the floodplain of the selected flood frequency, in all land covers.  <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+						},
+						pop100:{
+							vis:false
+						},
+						pop500:{
+							vis:false
+						},
 						pop2050:{
 							values:[],vis:true,min:0,max:33,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland/grassland floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
@@ -780,6 +868,16 @@ function ( 	declare ) {
 							values:[],vis:true,min:0,max:19,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency. <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
 						},
+						pop5:{
+							vis:false
+						},
+						pop100:{
+							values:[],vis:true,min:0,max:745,shfld:true,
+							info:"People currently living in the floodplain of the selected flood frequency, in all land covers.  <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+						},
+						pop500:{
+							vis:false
+						},
 						pop2050:{
 							values:[],vis:true,min:0,max:136,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in forest/wetland floodplain of the selected flood frequency in 2050. <a href='https://iopscience.iop.org/article/10.1088/1748-9326/aaac65' target='_blank'>More Info</a>"
@@ -845,6 +943,16 @@ function ( 	declare ) {
 						popnow:{
 							values:[],vis:true,min:0,max:46,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in forest/wetland floodplain of the selected flood frequency. <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+						},
+						pop5:{
+							vis:false
+						},
+						pop100:{
+							vis:false
+						},
+						pop500:{
+							values:[],vis:true,min:0,max:1503,shfld:true,
+							info:"People currently living in the floodplain of the selected flood frequency, in all land covers.  <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
 						},
 						pop2050:{
 							values:[],vis:true,min:0,max:154,
@@ -913,6 +1021,16 @@ function ( 	declare ) {
 							values:[],vis:true,min:0,max:12,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
 						},
+						pop5:{
+							values:[],vis:true,min:0,max:21,shfld:true,
+							info:"People currently living in the floodplain of the selected flood frequency, in all land covers.  <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+						},
+						pop100:{
+							vis:false
+						},
+						pop500:{
+							vis:false
+						},
 						pop2050:{
 							values:[],vis:true,min:0,max:19,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050."
@@ -980,6 +1098,16 @@ function ( 	declare ) {
 							values:[],vis:true,min:0,max:95,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
 						},
+						pop5:{
+							vis:false
+						},
+						pop100:{
+							values:[],vis:true,min:0,max:745,shfld:true,
+							info:"People currently living in the floodplain of the selected flood frequency, in all land covers.  <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
+						},
+						pop500:{
+							vis:false
+						},
 						pop2050:{
 							values:[],vis:true,min:0,max:155,
 							info:"<b>Population exposed to floods (2050)</b><br>People expected to be living in ag/pasture floodplain of the selected flood frequency in 2050."
@@ -1046,6 +1174,16 @@ function ( 	declare ) {
 						popnow:{
 							values:[],vis:true,min:0,max:437,
 							info:"<b>Population exposed to floods (present-day)</b><br>People currently living in ag/pasture floodplain of the selected flood frequency."
+						},
+						pop5:{
+							vis:false
+						},
+						pop100:{
+							vis:false
+						},
+						pop500:{
+							values:[],vis:true,min:0,max:1503,shfld:true,
+							info:"People currently living in the floodplain of the selected flood frequency, in all land covers.  <a href='https://www.epa.gov/enviroatlas/dasymetric-toolbox' target='_blank'>More Info</a>"
 						},
 						pop2050:{
 							values:[],vis:true,min:0,max:254,
